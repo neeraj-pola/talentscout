@@ -1,0 +1,11 @@
+# .gitignore
+.venv/
+__pycache__/
+*.pyc
+.env
+*.db
+chroma_db/
+events.jsonl
+.pytest_cache/
+.DS_Store
+*.egg-info/
