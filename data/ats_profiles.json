@@ -1,0 +1,1931 @@
+[
+  {
+    "ats_id": "ats_person_000",
+    "full_name": "Allison Hill",
+    "email": "jason41@example.net",
+    "phone_number": "+1-228-732-7648x3503",
+    "city": "Toronto, Canada",
+    "tenure_years": 6.2,
+    "role": "Staff ML Engineer",
+    "bio": "Environment decision wall then fire pretty how trip learn enter east no enjoy. Today human despite young meeting before. Technology check civil. Others his other life edge network. Quite boy those. Born itself law west then enjoy. Seven medical blood personal success medical current.",
+    "tags": [
+      "LLMs",
+      "RAG",
+      "python3",
+      "aws",
+      "K8s",
+      "Containerization",
+      "Machine Learning",
+      "LangChain",
+      "MySQL",
+      "FastAPI"
+    ],
+    "work_history": [
+      {
+        "role": "Staff ML Engineer",
+        "employer": "Quantum Labs",
+        "months": 22,
+        "summary": "Say quality throughout beautiful. All behavior discussion own night respond."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "NeuroNet Systems",
+        "months": 23,
+        "summary": "Determine operation speak according south recently. Everyone democratic shake bill here grow. Page southern role movie win her."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "NeuroNet Systems",
+        "months": 24,
+        "summary": "Stop peace technology officer relate. Product significant world. Term herself law street class."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. AI",
+        "school": "University at Buffalo",
+        "year": 2018
+      }
+    ],
+    "source_channel": "referral",
+    "_canonical_id": "person_000"
+  },
+  {
+    "ats_id": "ats_person_003",
+    "full_name": "Richard Henson",
+    "email": "ybailey@example.org",
+    "phone_number": "803.765.4145",
+    "city": "Seattle, WA",
+    "tenure_years": 6.0,
+    "role": "ML Engineer",
+    "bio": "Boy wife condition while enter board its. Paper memory history office effort remember. Mind southern rather. Hair attorney professional form finish. Medical project for recent never. Inside wait quality total past.",
+    "tags": [
+      "LLMs",
+      "Time series",
+      "Machine Learning",
+      "Python 3",
+      "spaCy"
+    ],
+    "work_history": [
+      {
+        "role": "ML Engineer",
+        "employer": "Lumen Data",
+        "months": 72,
+        "summary": "See understand door class son computer include conference. Site in prove same easy city. Him although likely current."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. AI",
+        "school": "Georgia Tech",
+        "year": 2019
+      }
+    ],
+    "source_channel": "referral",
+    "_canonical_id": "person_003"
+  },
+  {
+    "ats_id": "ats_person_004",
+    "full_name": "Joshua Smith",
+    "email": "gibsonolivia@example.net",
+    "phone_number": "567.463.2016",
+    "city": "Buffalo, NY",
+    "tenure_years": 1.9,
+    "role": "Associate Data Scientist",
+    "bio": "Let newspaper true building card let most next fish sense kind spring throughout interview trade. Season listen else easy. She miss phone ever back. Doctor from throw ball character. Relationship ask imagine my. Artist strategy hope show watch affect. Herself accept goal send table well industry.",
+    "tags": [
+      "machine learning",
+      "LLMs",
+      "Retrieval-Augmented Generation",
+      "langchain",
+      "aws",
+      "Py",
+      "PyTorch",
+      "MySQL"
+    ],
+    "work_history": [
+      {
+        "role": "Associate Data Scientist",
+        "employer": "Pinnacle ML",
+        "months": 6,
+        "summary": "Involve oil pressure let kind. Memory soldier where save probably."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "DataDyne",
+        "months": 16,
+        "summary": "Professional people behavior weight dog financial southern. Agency each little sure."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.Tech CSE",
+        "school": "MIT",
+        "year": 2025
+      }
+    ],
+    "source_channel": "referral",
+    "_canonical_id": "person_004"
+  },
+  {
+    "ats_id": "ats_person_005",
+    "full_name": "Kimberly Morrison",
+    "email": "debraharrington@example.net",
+    "phone_number": "9033309232",
+    "city": "Hyderabad, India",
+    "tenure_years": 14.3,
+    "role": "Staff ML Engineer",
+    "bio": "Way let eight hard paper white responsibility sing clearly find official up office traditional heart. Option store drug recent. Sure outside building worker site. Into have media game support state black. Player stock religious itself safe whole. Pattern try simple let stay.",
+    "tags": [
+      "machine learning",
+      "kubernetes",
+      "Retrieval Augmented Generation",
+      "spaCy",
+      "docker",
+      "Python 3",
+      "Torch",
+      "Langchain"
+    ],
+    "work_history": [
+      {
+        "role": "Staff ML Engineer",
+        "employer": "Helix AI",
+        "months": 80,
+        "summary": "Detail job ahead from quickly identify close. Try wonder move trade option production base."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "Catalyst AI",
+        "months": 85,
+        "summary": "Term consider employee force. Force seven here sell story edge bank. See appear weight."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Computer Science",
+        "school": "IIT Bombay",
+        "year": 2012
+      }
+    ],
+    "source_channel": "referral",
+    "_canonical_id": "person_005"
+  },
+  {
+    "ats_id": "ats_person_006",
+    "full_name": "Erica Sanchez",
+    "email": "ewilson@example.com",
+    "phone_number": "519.802.2941x3186",
+    "city": "Buffalo, NY",
+    "tenure_years": 6.4,
+    "role": "Staff ML Engineer",
+    "bio": "Training father open investment notice art whether between several personal enough ball dream necessary. Impact ready like. Discuss religious reflect. Reach under skin person. Interesting name positive training step. Arrive society organization station.",
+    "tags": [
+      "Python",
+      "Amazon Web Services",
+      "K8s",
+      "Docker",
+      "PyTorch",
+      "ML",
+      "spaCy"
+    ],
+    "work_history": [
+      {
+        "role": "Staff ML Engineer",
+        "employer": "Innovatech",
+        "months": 20,
+        "summary": "Think during let particular her. Management foot maintain."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "Innovatech",
+        "months": 22,
+        "summary": "Future they red everybody act. Beat result major serve real. Large admit family identify during professional hard."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "NeuroNet Systems",
+        "months": 17,
+        "summary": "Gas you nearly goal law fill discover. Firm sea week real course. Everybody operation set others wonder strategy fast."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "BlueOcean Tech",
+        "months": 14,
+        "summary": "Few remain call animal. Network recently call. Bill activity expect long future whole education."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech IT",
+        "school": "MIT",
+        "year": 2020
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_006"
+  },
+  {
+    "ats_id": "ats_person_007",
+    "full_name": "Jessica Harrison",
+    "email": "andrea47@example.net",
+    "phone_number": "310.993.2480x8613",
+    "city": "Bangalore, India",
+    "tenure_years": 3.8,
+    "role": "Data Scientist",
+    "bio": "Positive child usually factor relate indeed lot line lead. Course out second carry attorney significant. Future skin environment able rise study. Tend land machine forward several help usually. Wonder draw him task improve. Seat relate specific history professional star. Manager already maybe opportunity.",
+    "tags": [
+      "LLMs",
+      "Python",
+      "NLP",
+      "PyTorch",
+      "ML"
+    ],
+    "work_history": [
+      {
+        "role": "Data Scientist",
+        "employer": "Nimbus Analytics",
+        "months": 6,
+        "summary": "Wall matter management ball always it. Page ago director purpose team onto."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Vertex Data",
+        "months": 11,
+        "summary": "Office several compare million kind."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Quantum Labs",
+        "months": 14,
+        "summary": "Young job sport why. Girl four prove tax form really explain."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "BlueOcean Tech",
+        "months": 11,
+        "summary": "Already because education break significant ten stay. Price my including. Million performance material kind appear."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech Computer Science",
+        "school": "UC Berkeley",
+        "year": 2021
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_007"
+  },
+  {
+    "ats_id": "ats_person_008",
+    "full_name": "Shelly Alexander",
+    "email": "wgood@example.net",
+    "phone_number": "001-817-424-0050x455",
+    "city": "Austin, TX",
+    "tenure_years": 5.2,
+    "role": "ML Engineer",
+    "bio": "Most not society color bad that people drive tree central. Least project together let explain. Citizen kid generation onto police interesting economic. Current his low down occur. Yeah far within probably ever. Ten sing wind treat seat strategy total. Parent good PM per question.",
+    "tags": [
+      "machine learning",
+      "PostgreSQL",
+      "PyTorch",
+      "FastAPI",
+      "Large Language Models",
+      "Python 3"
+    ],
+    "work_history": [
+      {
+        "role": "ML Engineer",
+        "employer": "Catalyst AI",
+        "months": 62,
+        "summary": "Address century that wide avoid sit enter. Realize power system system teacher here first responsibility. Their along attention piece TV young section."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech IT",
+        "school": "Carnegie Mellon",
+        "year": 2020
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_008"
+  },
+  {
+    "ats_id": "ats_person_010",
+    "full_name": "Alexis Baker",
+    "email": "fjones@example.com",
+    "phone_number": "+1-621-924-9985x698",
+    "city": "Bangalore, India",
+    "tenure_years": 11.1,
+    "role": "Principal AI Engineer",
+    "bio": "Painting between reduce table prepare shoulder result Democrat later direction fund law indeed believe. Professor hear check type attack story. It season head candidate. Only no form business. Test return why outside goal official. Choice lot suggest glass news. Several off southern suddenly.",
+    "tags": [
+      "machine learning",
+      "GPT",
+      "Python",
+      "Kubernetes",
+      "aws",
+      "Docker",
+      "FastAPI"
+    ],
+    "work_history": [
+      {
+        "role": "Principal AI Engineer",
+        "employer": "Cortex Analytics",
+        "months": 70,
+        "summary": "Moment second live sing message board. Develop past road training probably feeling poor."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Lumen Data",
+        "months": 59,
+        "summary": "Your suggest international blue."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.Tech CSE",
+        "school": "Stanford University",
+        "year": 2013
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_010"
+  },
+  {
+    "ats_id": "ats_person_011",
+    "full_name": "Sabrina Austin",
+    "email": "davisalyssa@example.com",
+    "phone_number": "(275)325-4599x10229",
+    "city": "New York, NY",
+    "tenure_years": 1.2,
+    "role": "Junior ML Engineer",
+    "bio": "Kitchen interest parent increase democratic mention generation book question or money. Determine worker area. Feeling deep case eight foreign. Section compare herself region matter street south.",
+    "tags": [
+      "SQL",
+      "Kubernetes",
+      "python3",
+      "Spring",
+      "docker"
+    ],
+    "work_history": [
+      {
+        "role": "Junior ML Engineer",
+        "employer": "Apex Cloud",
+        "months": 12,
+        "summary": "Participant price really. Congress reflect finally. Go consider century price attorney scientist."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech Computer Science",
+        "school": "University at Buffalo",
+        "year": 2025
+      }
+    ],
+    "source_channel": "referral",
+    "_canonical_id": "person_011"
+  },
+  {
+    "ats_id": "ats_person_013",
+    "full_name": "Lisa Cox",
+    "email": "mathewaguilar@example.org",
+    "phone_number": "(346)829-1486x528",
+    "city": "Seattle, WA",
+    "tenure_years": 4.0,
+    "role": "AI Engineer",
+    "bio": "Gun guy Congress degree way main difficult case baby such big side strong this also. Capital heavy class story side speak close join. Hair rest wide particular sell six. Move finally speak light strong. Worker left example high month whom stage. Catch economic political them never bill suffer surface. Base civil last message store.",
+    "tags": [
+      "Containerization",
+      "Py",
+      "Spring Boot",
+      "MySQL"
+    ],
+    "work_history": [
+      {
+        "role": "AI Engineer",
+        "employer": "Cortex Analytics",
+        "months": 43,
+        "summary": "Impact full our smile positive at. Newspaper hit edge surface."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Computer Science",
+        "school": "UC Berkeley",
+        "year": 2021
+      }
+    ],
+    "source_channel": "agency",
+    "_canonical_id": "person_013"
+  },
+  {
+    "ats_id": "ats_person_014",
+    "full_name": "Thomas Velasquez",
+    "email": "millsmichael@example.net",
+    "phone_number": "+1-788-680-6706",
+    "city": "Hyderabad, India",
+    "tenure_years": 2.2,
+    "role": "ML Engineer I",
+    "bio": "Ground attack drop price billion old series. Good full poor. Wonder long consider care respond want already. Social though firm. Middle writer myself education send.",
+    "tags": [
+      "LLMs",
+      "Time Series Analysis",
+      "Pytorch",
+      "aws",
+      "Py",
+      "ML",
+      "MySQL"
+    ],
+    "work_history": [
+      {
+        "role": "ML Engineer I",
+        "employer": "Helix AI",
+        "months": 11,
+        "summary": "Increase how hear. Yes heart agreement us stuff practice. Case expert stop receive."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "Vertex Data",
+        "months": 11,
+        "summary": "Large accept bad eight strong nature road. Institution simply down business draw police performance."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Forge AI",
+        "months": 4,
+        "summary": "Student matter movie place. Drop century investment pass drive indicate professor."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. AI",
+        "school": "Stanford University",
+        "year": 2022
+      }
+    ],
+    "source_channel": "referral",
+    "_canonical_id": "person_014"
+  },
+  {
+    "ats_id": "ats_person_015",
+    "full_name": "Howard Norman",
+    "email": "greenjorge@example.com",
+    "phone_number": "494.973.1217",
+    "city": "San Francisco, CA",
+    "tenure_years": 3.4,
+    "role": "Data Scientist",
+    "bio": "Specific whose worry property remember nearly face feel. Soldier meeting building cut. Door management guess occur. Candidate this assume huge response long improve. Statement available win politics last quite. Campaign stop necessary onto should can.",
+    "tags": [
+      "machine learning",
+      "Retrieval-Augmented Generation",
+      "PyTorch",
+      "MySQL",
+      "Large Language Models",
+      "Python 3",
+      "Langchain"
+    ],
+    "work_history": [
+      {
+        "role": "Data Scientist",
+        "employer": "Stellar Software",
+        "months": 16,
+        "summary": "Buy happy threat sea thus. Fund cost reality happen something entire. Risk bad own state."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "Vertex Data",
+        "months": 12,
+        "summary": "Fly bag produce fill owner. Coach know language risk treatment past. Ever woman way avoid point guy."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "DataDyne",
+        "months": 8,
+        "summary": "Central parent sit. Call door population."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "Vertex Data",
+        "months": 4,
+        "summary": "We allow check last he know. Off morning huge power. Whether ago control military trial."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Computer Science",
+        "school": "BITS Pilani",
+        "year": 2023
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_015"
+  },
+  {
+    "ats_id": "ats_person_016",
+    "full_name": "Sheena Guerra",
+    "email": "larryhiggins@example.net",
+    "phone_number": "(962)558-8153x714",
+    "city": "Bangalore, India",
+    "tenure_years": 1.5,
+    "role": "ML Engineer I",
+    "bio": "Best face his past eat tend civil force officer. Several marriage method material final. Bed hotel lead. Democrat good anything manager think. Mr suggest issue think road. Hand hundred now crime network available. Late near stay perhaps particularly campaign benefit.",
+    "tags": [
+      "Python",
+      "Retrieval-Augmented Generation",
+      "AWS",
+      "SQL",
+      "ML",
+      "fastapi",
+      "Large Language Models",
+      "Langchain"
+    ],
+    "work_history": [
+      {
+        "role": "ML Engineer I",
+        "employer": "Polaris Tech",
+        "months": 6,
+        "summary": "Fight class various different. Thus suffer economy play nearly by field. Behavior political option oil commercial person top."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Orion ML",
+        "months": 8,
+        "summary": "American tell ball we side enough decision. Indicate police marriage phone face what lot. Father authority art keep machine daughter."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech IT",
+        "school": "UC Berkeley",
+        "year": 2024
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_016"
+  },
+  {
+    "ats_id": "ats_person_018",
+    "full_name": "Vanessa Moore",
+    "email": "znelson@example.org",
+    "phone_number": "727-342-0549x32966",
+    "city": "Delhi, India",
+    "tenure_years": 4.4,
+    "role": "Software Engineer (AI/ML)",
+    "bio": "Protect continue cell food easy end dog send west few reveal activity president. Property let civil rather. Real police wait happen determine. Check security paper indeed near likely Mr. Seven quite other skin moment.",
+    "tags": [
+      "LLMs",
+      "Amazon Web Services",
+      "Retrieval Augmented Generation",
+      "Pytorch",
+      "ML",
+      "MySQL",
+      "Python 3",
+      "Langchain"
+    ],
+    "work_history": [
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Forge AI",
+        "months": 24,
+        "summary": "Practice sense expert experience arrive shoulder present. Movement rich view tree company. Value already structure small."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "Nimbus Analytics",
+        "months": 28,
+        "summary": "Theory across nothing blue work. Lawyer political modern threat care."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. AI",
+        "school": "Georgia Tech",
+        "year": 2020
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_018"
+  },
+  {
+    "ats_id": "ats_person_019",
+    "full_name": "Heidi Stark",
+    "email": "gdavis@example.com",
+    "phone_number": "9726867908",
+    "city": "Austin, TX",
+    "tenure_years": 10.3,
+    "role": "Senior ML Engineer",
+    "bio": "How staff second official and general as. Worry line expert conference. She within position inside. Thank trade heart radio product much president. Budget year hotel camera without strong. Without leg rest.",
+    "tags": [
+      "kubernetes",
+      "python3",
+      "Spring",
+      "Docker",
+      "MySQL"
+    ],
+    "work_history": [
+      {
+        "role": "Senior ML Engineer",
+        "employer": "Forge AI",
+        "months": 123,
+        "summary": "Stock total dark Mr. Foreign minute break day."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Computer Science",
+        "school": "MIT",
+        "year": 2016
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_019"
+  },
+  {
+    "ats_id": "ats_person_020",
+    "full_name": "James Hall",
+    "email": "karenparsons@example.org",
+    "phone_number": "643.695.9953x42836",
+    "city": "Delhi, India",
+    "tenure_years": 1.8,
+    "role": "ML Engineer I",
+    "bio": "News option same compare quickly new another general. Five indicate chance heavy senior list support. Tax certain leg arm include. Newspaper care drug data position two. Movie stop appear help. Owner them could seven right next look thank. Field training deep couple scientist section.",
+    "tags": [
+      "Pytorch",
+      "Py",
+      "ML",
+      "fastapi",
+      "LLM"
+    ],
+    "work_history": [
+      {
+        "role": "ML Engineer I",
+        "employer": "Innovatech",
+        "months": 21,
+        "summary": "Choice country themselves she allow produce. She this administration deal beyond almost our reflect. Each analysis keep."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech Computer Science",
+        "school": "BITS Pilani",
+        "year": 2025
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_020"
+  },
+  {
+    "ats_id": "ats_person_022",
+    "full_name": "Kimberly Mitchell",
+    "email": "patrick21@example.net",
+    "phone_number": "001-250-616-3159x9965",
+    "city": "Seattle, WA",
+    "tenure_years": 9.6,
+    "role": "Senior AI Engineer",
+    "bio": "Make green wait it quickly produce beat peace something require bank child Republican plant. Guess before wall know seven bill. Cost large never impact. Bed never others. Activity including single right nice yeah. Occur college herself catch feeling. Certainly cold every feel site guess want.",
+    "tags": [
+      "GPT",
+      "Python",
+      "K8s",
+      "Containerization",
+      "PyTorch",
+      "ML",
+      "MySQL",
+      "Natural Language Processing"
+    ],
+    "work_history": [
+      {
+        "role": "Senior AI Engineer",
+        "employer": "Forge AI",
+        "months": 29,
+        "summary": "South travel blood benefit chance court. Education great some bad where learn during. Feel stock ball yard practice."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Helix AI",
+        "months": 33,
+        "summary": "If help live PM."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "Cortex Analytics",
+        "months": 23,
+        "summary": "Matter its six not. Thus try discover top."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "Polaris Tech",
+        "months": 30,
+        "summary": "Even under range exactly myself probably conference. Administration debate certain star start up. Class drive strong home to."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech IT",
+        "school": "UC Berkeley",
+        "year": 2015
+      }
+    ],
+    "source_channel": "referral",
+    "_canonical_id": "person_022"
+  },
+  {
+    "ats_id": "ats_person_023",
+    "full_name": "Kathleen Jensen",
+    "email": "tamaranovak@example.com",
+    "phone_number": "001-479-235-6465x1939",
+    "city": "Mumbai, India",
+    "tenure_years": 3.1,
+    "role": "AI Engineer",
+    "bio": "Wall decide something story attorney summer some pull cause field education child institution help. Look husband media turn reality myself so growth. Order trial body eat professor coach partner. Worker quality hundred sell whole involve action. Member million oil offer knowledge. Leg quickly real character young lot.",
+    "tags": [
+      "SQL",
+      "python3",
+      "K8s",
+      "docker",
+      "Spring Boot"
+    ],
+    "work_history": [
+      {
+        "role": "AI Engineer",
+        "employer": "BlueOcean Tech",
+        "months": 37,
+        "summary": "Career according how success. Sound forget friend spring teacher wind. Feel owner receive look."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech Computer Science",
+        "school": "BITS Pilani",
+        "year": 2021
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_023"
+  },
+  {
+    "ats_id": "ats_person_024",
+    "full_name": "Thomas Miller",
+    "email": "powerslawrence@example.org",
+    "phone_number": "412-952-8669x2966",
+    "city": "Toronto, Canada",
+    "tenure_years": 4.7,
+    "role": "Software Engineer (AI/ML)",
+    "bio": "Really population yourself never majority cell fire late approach grow act carry spring white measure. Range indeed style major bar air. Factor ever Mrs collection leader. Near both box simple statement happen state. National wrong bill stop seem fear.",
+    "tags": [
+      "machine learning",
+      "RAG",
+      "Microsoft Azure",
+      "Time series",
+      "PostgreSQL",
+      "Natural Language Processing",
+      "Python 3",
+      "Langchain",
+      "LLM"
+    ],
+    "work_history": [
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Cortex Analytics",
+        "months": 16,
+        "summary": "Find lay deal lot live just. Five feel special boy support possible quality."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "BlueOcean Tech",
+        "months": 17,
+        "summary": "Might necessary former interview left. Picture control price how scene third."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "Lumen Data",
+        "months": 22,
+        "summary": "Involve above Democrat everything region somebody officer son. Cost for leader energy television month police. Home hotel box goal leader common purpose song."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.Tech CSE",
+        "school": "IIT Madras",
+        "year": 2022
+      }
+    ],
+    "source_channel": "referral",
+    "_canonical_id": "person_024"
+  },
+  {
+    "ats_id": "ats_person_025",
+    "full_name": "Mrs. Hannah Montoya MD",
+    "email": "ebrooks@example.net",
+    "phone_number": "001-316-884-5775x90175",
+    "city": "Hyderabad, India",
+    "tenure_years": 4.5,
+    "role": "ML Engineer",
+    "bio": "Why station manager follow exist natural candidate system small thus. Between six least. Kid a when dark. Think few themselves theory.",
+    "tags": [
+      "GPT",
+      "Py",
+      "Time series",
+      "Machine Learning",
+      "MySQL",
+      "Azure",
+      "fastapi"
+    ],
+    "work_history": [
+      {
+        "role": "ML Engineer",
+        "employer": "Synapse Labs",
+        "months": 19,
+        "summary": "Decide scene ready technology particular. Coach cause deal deal arrive go."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Stellar Software",
+        "months": 18,
+        "summary": "Much food region eye environment teach world quickly. Career seek in arrive."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Synapse Labs",
+        "months": 11,
+        "summary": "Reduce car chair focus. Seven put majority officer environmental."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech Computer Science",
+        "school": "IIT Delhi",
+        "year": 2021
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_025"
+  },
+  {
+    "ats_id": "ats_person_026",
+    "full_name": "Isaac Miller",
+    "email": "kimberly04@example.org",
+    "phone_number": "398.236.4037x61379",
+    "city": "Austin, TX",
+    "tenure_years": 4.7,
+    "role": "Software Engineer (AI/ML)",
+    "bio": "Value car team nothing half raise several west side admit attack energy. We huge expert Republican. Reduce bar Mr pattern everyone finally. Tv window choice force only shake power. Financial join well draw.",
+    "tags": [
+      "GPT",
+      "AWS",
+      "python3",
+      "Machine Learning",
+      "PostgreSQL",
+      "Natural Language Processing"
+    ],
+    "work_history": [
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Meridian Tech",
+        "months": 21,
+        "summary": "How figure record. Investment before believe degree back."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "BlueOcean Tech",
+        "months": 11,
+        "summary": "Mind knowledge account gas building. Really local director become south billion. Thing case similar send card year. Attention none particular clearly."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "Cortex Analytics",
+        "months": 24,
+        "summary": "Physical character in rather team. To cause but role. White fire cause everybody base network."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.Tech CSE",
+        "school": "IIT Delhi",
+        "year": 2022
+      }
+    ],
+    "source_channel": "referral",
+    "_canonical_id": "person_026"
+  },
+  {
+    "ats_id": "ats_person_027",
+    "full_name": "Tim Wilson",
+    "email": "tranrobin@example.net",
+    "phone_number": "+1-263-453-6541x9518",
+    "city": "New York, NY",
+    "tenure_years": 4.7,
+    "role": "ML Engineer",
+    "bio": "Source wonder west attention let executive suddenly force network account. Nor fight performance less option. Young simply run national somebody character usually. Must player really act friend.",
+    "tags": [
+      "ML",
+      "FastAPI",
+      "MySQL",
+      "Python 3",
+      "Azure",
+      "spaCy",
+      "LLM"
+    ],
+    "work_history": [
+      {
+        "role": "ML Engineer",
+        "employer": "Quantum Labs",
+        "months": 32,
+        "summary": "Area program price compare actually case activity market. Mission situation result cold camera sit. Run brother tonight friend investment. Ask Republican office baby lawyer growth matter."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "DataDyne",
+        "months": 22,
+        "summary": "Happy effort bill off. Direction meeting analysis television. Animal hair turn condition whether."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech Computer Science",
+        "school": "IIT Madras",
+        "year": 2021
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_027"
+  },
+  {
+    "ats_id": "ats_person_028",
+    "full_name": "Jamie Rojas",
+    "email": "byrdjorge@example.org",
+    "phone_number": "4673883171",
+    "city": "New York, NY",
+    "tenure_years": 5.5,
+    "role": "AI Engineer",
+    "bio": "Article sit develop cup hundred rather visit. Only true avoid young cup position speak begin. Business walk anything under item right. Him interview government. Every land chance pass. Early far include nearly article evidence case current.",
+    "tags": [
+      "Containerization",
+      "Python 3",
+      "Java",
+      "PostgreSQL"
+    ],
+    "work_history": [
+      {
+        "role": "AI Engineer",
+        "employer": "DataDyne",
+        "months": 17,
+        "summary": "Day work information which. Republican behavior TV today."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "Forge AI",
+        "months": 19,
+        "summary": "Red head window be believe card. Avoid nothing itself who door end. Unit hotel story for laugh do."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Meridian Tech",
+        "months": 20,
+        "summary": "Sister once choice clearly. Finish building group show later leg system."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "DataDyne",
+        "months": 8,
+        "summary": "Space fight relate owner. Structure foreign before eat green."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Computer Science",
+        "school": "Georgia Tech",
+        "year": 2019
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_028"
+  },
+  {
+    "ats_id": "ats_person_029",
+    "full_name": "Kelly Mccoy",
+    "email": "brian29@example.net",
+    "phone_number": "(718)651-5691",
+    "city": "Remote",
+    "tenure_years": 3.1,
+    "role": "Software Engineer (AI/ML)",
+    "bio": "Carry church we social whether power company why really up skin development. Her safe family concern. We we hot. Allow own TV whose determine not view. Former back get floor. Land enter economic attack either blue. Answer just information.",
+    "tags": [
+      "SQL",
+      "Spring",
+      "Py",
+      "Docker"
+    ],
+    "work_history": [
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Catalyst AI",
+        "months": 8,
+        "summary": "Writer site grow. Sit general not focus establish ago others. Time sing around."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "DataDyne",
+        "months": 14,
+        "summary": "Group once do city easy drop move. Shake way offer work. Great stuff suddenly compare or south."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Forge AI",
+        "months": 15,
+        "summary": "Agreement red way nor none could write think. My compare also argue own after long. Truth cut candidate response try such."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. AI",
+        "school": "University at Buffalo",
+        "year": 2021
+      }
+    ],
+    "source_channel": "agency",
+    "_canonical_id": "person_029"
+  },
+  {
+    "ats_id": "ats_person_031",
+    "full_name": "Richard Floyd",
+    "email": "xwilliams@example.net",
+    "phone_number": "745.978.6103",
+    "city": "Toronto, Canada",
+    "tenure_years": 5.8,
+    "role": "AI Engineer",
+    "bio": "Land whether listen necessary general study else store bed agree anyone take sister Democrat determine different. Prepare message ten whose radio. Treatment positive over across education source figure. Time surface learn design few minute. However bill memory production successful hear positive participant.",
+    "tags": [
+      "RAG",
+      "langchain",
+      "Machine Learning",
+      "Python 3",
+      "Azure",
+      "spaCy",
+      "fastapi"
+    ],
+    "work_history": [
+      {
+        "role": "AI Engineer",
+        "employer": "Synapse Labs",
+        "months": 23,
+        "summary": "There enough pressure occur list common. Century participant really although threat former. Any little environmental head full."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "Polaris Tech",
+        "months": 24,
+        "summary": "Exactly man receive better than. Feel season similar fly."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "Nimbus Analytics",
+        "months": 22,
+        "summary": "Population could deep station scientist service test start. Social assume remember idea sister modern notice. Cover strategy student economic."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Computer Science",
+        "school": "UC Berkeley",
+        "year": 2019
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_031"
+  },
+  {
+    "ats_id": "ats_person_032",
+    "full_name": "Brian Brown",
+    "email": "ginalittle@example.com",
+    "phone_number": "+1-758-342-8241x72482",
+    "city": "Buffalo, NY",
+    "tenure_years": 6.8,
+    "role": "Senior Data Scientist",
+    "bio": "Great season film small former end family surface like term. Want author threat matter test high fear approach. Case customer important notice. Century television Congress ball forward would finish. Above event seven collection. Size sister can its investment investment local. Also current health.",
+    "tags": [
+      "GPT",
+      "Retrieval-Augmented Generation",
+      "Microsoft Azure",
+      "langchain",
+      "spaCy",
+      "Time-series forecasting",
+      "ML",
+      "Python 3"
+    ],
+    "work_history": [
+      {
+        "role": "Senior Data Scientist",
+        "employer": "Nimbus Analytics",
+        "months": 43,
+        "summary": "Technology end represent throughout federal change. Tonight south sort outside produce."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Innovatech",
+        "months": 35,
+        "summary": "Pretty young else. Identify say on yes staff gas."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. AI",
+        "school": "University of Washington",
+        "year": 2019
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_032"
+  },
+  {
+    "ats_id": "ats_person_033",
+    "full_name": "Frank Whitaker",
+    "email": "stephen89@example.net",
+    "phone_number": "262-457-5326x03323",
+    "city": "Austin, TX",
+    "tenure_years": 10.9,
+    "role": "Staff ML Engineer",
+    "bio": "Hand practice also theory eight movement any yes product. Ready indicate herself. Listen check receive piece feeling. Production establish paper case. Memory pay executive size.",
+    "tags": [
+      "Kubernetes",
+      "Retrieval Augmented Generation",
+      "Pytorch",
+      "python3",
+      "Docker",
+      "ML",
+      "Azure",
+      "fastapi",
+      "Large Language Models",
+      "Langchain"
+    ],
+    "work_history": [
+      {
+        "role": "Staff ML Engineer",
+        "employer": "Lumen Data",
+        "months": 129,
+        "summary": "Quality phone eat. Fine bill me fill assume animal."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Data Science",
+        "school": "University at Buffalo",
+        "year": 2014
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_033"
+  },
+  {
+    "ats_id": "ats_person_034",
+    "full_name": "Mr. Richard Decker DVM",
+    "email": "timothyfreeman@example.com",
+    "phone_number": "301.845.0899x358",
+    "city": "Delhi, India",
+    "tenure_years": 10.6,
+    "role": "Senior ML Engineer",
+    "bio": "Loss professional political chance step throughout party activity various measure. Thank avoid man drive wife anyone development. Idea dog learn soon large task. Firm wonder seat adult idea along near. White point three none pressure lay future stay. Such forward should outside respond.",
+    "tags": [
+      "Python",
+      "SQL",
+      "K8s",
+      "Spring",
+      "Docker"
+    ],
+    "work_history": [
+      {
+        "role": "Senior ML Engineer",
+        "employer": "NeuroNet Systems",
+        "months": 26,
+        "summary": "Far always many debate value former. Actually become book. Protect chance bed memory rich big eight."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "Vertex Data",
+        "months": 34,
+        "summary": "Write fast less between company always fact. International break surface three act catch."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "Helix AI",
+        "months": 27,
+        "summary": "Group just perform there behavior spring. Box hundred lead structure."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "Vertex Data",
+        "months": 40,
+        "summary": "Power someone both receive around wall. Billion treat lot notice. Consider here grow agreement range stuff."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. AI",
+        "school": "University at Buffalo",
+        "year": 2015
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_034"
+  },
+  {
+    "ats_id": "ats_person_035",
+    "full_name": "Jesse Davis",
+    "email": "shawn22@example.com",
+    "phone_number": "+1-484-485-8333x945",
+    "city": "London, UK",
+    "tenure_years": 2.1,
+    "role": "Associate Data Scientist",
+    "bio": "My PM report set no old wall report purpose throw move there institution actually. Herself apply argue. Seek claim expert economy style. Send allow sport bill test. Ten score night down six sometimes explain.",
+    "tags": [
+      "Retrieval-Augmented Generation",
+      "Pytorch",
+      "langchain",
+      "python3",
+      "NLP",
+      "Machine Learning",
+      "PostgreSQL"
+    ],
+    "work_history": [
+      {
+        "role": "Associate Data Scientist",
+        "employer": "Lumen Data",
+        "months": 12,
+        "summary": "Game stop who. Natural hear blood to manage."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "Polaris Tech",
+        "months": 6,
+        "summary": "Effect cultural building system. Lead sit response blue increase. But through leader operation mean white above save."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Forge AI",
+        "months": 6,
+        "summary": "Stuff lot meet TV concern official. Billion price paper focus. Industry participant realize eat huge garden."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.Tech CSE",
+        "school": "NIT Trichy",
+        "year": 2023
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_035"
+  },
+  {
+    "ats_id": "ats_person_037",
+    "full_name": "Michael Houston",
+    "email": "fmedina@example.com",
+    "phone_number": "653.568.2223",
+    "city": "London, UK",
+    "tenure_years": 7.9,
+    "role": "Senior ML Engineer",
+    "bio": "Consider son system surface usually yes leave near. Economy culture oil week. Campaign pretty beyond people too fish. Pattern figure once not hair first. Collection finish size Republican political everybody. Care run there leg grow figure.",
+    "tags": [
+      "machine learning",
+      "Retrieval-Augmented Generation",
+      "langchain",
+      "aws",
+      "K8s",
+      "Py",
+      "PostgreSQL",
+      "Time-series forecasting",
+      "PyTorch",
+      "docker",
+      "fastapi"
+    ],
+    "work_history": [
+      {
+        "role": "Senior ML Engineer",
+        "employer": "Quantum Labs",
+        "months": 18,
+        "summary": "Stock these scientist itself stage authority rather. Learn forward beautiful."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "Nimbus Analytics",
+        "months": 31,
+        "summary": "Some newspaper offer direction."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "DataDyne",
+        "months": 28,
+        "summary": "Hold picture item admit pull movement. As second animal summer group me face rate."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Acme AI",
+        "months": 17,
+        "summary": "Example unit high state. Listen mouth carry. Someone support far plant fear thought. Whatever action themselves center among of."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. AI",
+        "school": "Carnegie Mellon",
+        "year": 2019
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_037"
+  },
+  {
+    "ats_id": "ats_person_038",
+    "full_name": "Casey Obrien",
+    "email": "nhammond@example.org",
+    "phone_number": "+1-648-487-2563",
+    "city": "Pune, India",
+    "tenure_years": 5.0,
+    "role": "ML Engineer",
+    "bio": "May bed hair action draw who word range serious cell city not not the. Voice American seven discussion enough doctor protect. Traditional guess like lawyer another wonder food. Strong enjoy name community president. Onto together back edge win development. Good test main lot page maybe.",
+    "tags": [
+      "machine learning",
+      "LLMs",
+      "Retrieval-Augmented Generation",
+      "aws",
+      "Torch",
+      "LangChain",
+      "MySQL",
+      "Python 3"
+    ],
+    "work_history": [
+      {
+        "role": "ML Engineer",
+        "employer": "Synapse Labs",
+        "months": 58,
+        "summary": "Through cultural safe phone. Throughout support place spend."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech Computer Science",
+        "school": "IIT Delhi",
+        "year": 2021
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_038"
+  },
+  {
+    "ats_id": "ats_person_039",
+    "full_name": "Christopher Jones",
+    "email": "cjohnson@example.org",
+    "phone_number": "001-492-628-0920",
+    "city": "Seattle, WA",
+    "tenure_years": 6.8,
+    "role": "Senior AI Engineer",
+    "bio": "Might if wide point these road start water describe. Test color store over some star consider. Enough right garden law opportunity discover history. Admit mission training range. Painting concern top outside. Sell behavior process top much ability visit. Miss have analysis morning director sort. Go source traditional student office international.",
+    "tags": [
+      "machine learning",
+      "Kubernetes",
+      "Retrieval Augmented Generation",
+      "Torch",
+      "LangChain",
+      "docker",
+      "Large Language Models",
+      "Python 3",
+      "MS Azure"
+    ],
+    "work_history": [
+      {
+        "role": "Senior AI Engineer",
+        "employer": "Cortex Analytics",
+        "months": 81,
+        "summary": "Change church own stage produce. Specific result loss long decision claim."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Computer Science",
+        "school": "IIT Delhi",
+        "year": 2019
+      }
+    ],
+    "source_channel": "agency",
+    "_canonical_id": "person_039"
+  },
+  {
+    "ats_id": "ats_person_040",
+    "full_name": "Ralph Kent",
+    "email": "angie74@example.com",
+    "phone_number": "001-556-821-3721",
+    "city": "Mumbai, India",
+    "tenure_years": 1.4,
+    "role": "Junior ML Engineer",
+    "bio": "Song pass range appear home player source statement likely outside because enjoy. Participant right us husband. Expert white arm similar compare manager action. Experience almost outside middle discuss college already. Wish beautiful every. Good house only military say attention.",
+    "tags": [
+      "Python",
+      "AWS",
+      "Retrieval Augmented Generation",
+      "NLP",
+      "Machine Learning",
+      "LangChain",
+      "FastAPI",
+      "Large Language Models"
+    ],
+    "work_history": [
+      {
+        "role": "Junior ML Engineer",
+        "employer": "Cortex Analytics",
+        "months": 10,
+        "summary": "Our myself election accept season. Official brother according."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "NeuroNet Systems",
+        "months": 6,
+        "summary": "Impact blood international one end movie. Hand every quite sense including six lot."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.Tech CSE",
+        "school": "IIT Bombay",
+        "year": 2025
+      }
+    ],
+    "source_channel": "agency",
+    "_canonical_id": "person_040"
+  },
+  {
+    "ats_id": "ats_person_041",
+    "full_name": "Duane Gallegos",
+    "email": "john16@example.net",
+    "phone_number": "001-951-582-7553x9423",
+    "city": "San Francisco, CA",
+    "tenure_years": 2.6,
+    "role": "ML Engineer I",
+    "bio": "Save their deal dark economic peace choose blood turn put. According tax when summer he firm together thing. Than make worker trouble exactly develop office. Moment institution vote. Girl team simply lead build million firm.",
+    "tags": [
+      "Torch",
+      "Py",
+      "Machine Learning"
+    ],
+    "work_history": [
+      {
+        "role": "ML Engineer I",
+        "employer": "Innovatech",
+        "months": 18,
+        "summary": "Girl spring difficult white lawyer identify. End imagine blood. Me future bring message. Then spend offer reason whom."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Polaris Tech",
+        "months": 13,
+        "summary": "Show serious which learn leave only agree. Election him small detail. Son include good movie red."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.Tech CSE",
+        "school": "IIT Bombay",
+        "year": 2024
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_041"
+  },
+  {
+    "ats_id": "ats_person_042",
+    "full_name": "Michael Gray",
+    "email": "logan44@example.net",
+    "phone_number": "+1-564-675-9876x2202",
+    "city": "Seattle, WA",
+    "tenure_years": 16.8,
+    "role": "ML Architect",
+    "bio": "Decision however believe view list approach side model. Energy choice pressure those. Director scene kitchen call money. Along ground trip. Level that various nature career way much.",
+    "tags": [
+      "Python",
+      "K8s",
+      "NLP",
+      "Time series",
+      "ML",
+      "MySQL",
+      "docker",
+      "LLM"
+    ],
+    "work_history": [
+      {
+        "role": "ML Architect",
+        "employer": "NeuroNet Systems",
+        "months": 45,
+        "summary": "Gun technology cost enjoy especially when. Hand material decision red head take."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "Forge AI",
+        "months": 56,
+        "summary": "Conference capital office direction between establish dog. Task cultural son school list act."
+      },
+      {
+        "role": "Data Scientist",
+        "employer": "Forge AI",
+        "months": 51,
+        "summary": "Care throw piece move firm main economy. Answer between clear democratic effect stuff benefit. Employee growth newspaper special general in."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Nimbus Analytics",
+        "months": 48,
+        "summary": "Current office power company sister great pull maintain. Threat high expert place certain cold space. Instead partner if trade bad gas."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Data Science",
+        "school": "University of Washington",
+        "year": 2010
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_042"
+  },
+  {
+    "ats_id": "ats_person_044",
+    "full_name": "Emily Morris",
+    "email": "browndeanna@example.net",
+    "phone_number": "+1-512-273-5857",
+    "city": "Remote",
+    "tenure_years": 5.0,
+    "role": "AI Engineer",
+    "bio": "Group care together magazine join far recent couple cost girl run every. Civil most last standard must law simply. Here control affect task simply draw return. Standard couple raise she child executive important. Book model at strong candidate them. Magazine better number student. Moment red eight hand paper audience us.",
+    "tags": [
+      "GPT",
+      "Python",
+      "aws",
+      "ML",
+      "MySQL"
+    ],
+    "work_history": [
+      {
+        "role": "AI Engineer",
+        "employer": "Cortex Analytics",
+        "months": 56,
+        "summary": "Seat near business. Police cup thought tell design both plan. Address some once how during why. Situation little other he become citizen before peace."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.Tech CSE",
+        "school": "NIT Trichy",
+        "year": 2020
+      }
+    ],
+    "source_channel": "referral",
+    "_canonical_id": "person_044"
+  },
+  {
+    "ats_id": "ats_person_045",
+    "full_name": "John Preston",
+    "email": "hlopez@example.net",
+    "phone_number": "992.888.6195",
+    "city": "Pune, India",
+    "tenure_years": 3.5,
+    "role": "ML Engineer",
+    "bio": "Coach Congress husband front citizen your kitchen good. Yard foot he share issue rise part. Nation heart nearly season growth laugh where. Risk work other. Year few feel develop. Against state ready every network news. Choice also green catch happen old do.",
+    "tags": [
+      "RAG",
+      "Machine Learning",
+      "PyTorch",
+      "LangChain",
+      "MySQL",
+      "FastAPI",
+      "Python 3",
+      "MS Azure"
+    ],
+    "work_history": [
+      {
+        "role": "ML Engineer",
+        "employer": "Polaris Tech",
+        "months": 40,
+        "summary": "Song art newspaper voice indeed hard remain. Entire American audience fight war whether best rise."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.Tech CSE",
+        "school": "Stanford University",
+        "year": 2022
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_045"
+  },
+  {
+    "ats_id": "ats_person_047",
+    "full_name": "Joshua Harris",
+    "email": "robertberry@example.com",
+    "phone_number": "495-878-2329x8324",
+    "city": "Buffalo, NY",
+    "tenure_years": 2.7,
+    "role": "Junior ML Engineer",
+    "bio": "Prevent north citizen attack mouth rest contain style certainly. They increase in kitchen value thus. Single blood continue several. Pay paper partner others discuss ago bag sister.",
+    "tags": [
+      "GPT",
+      "Python",
+      "AWS",
+      "Retrieval Augmented Generation",
+      "Pytorch",
+      "ML",
+      "MySQL",
+      "Langchain"
+    ],
+    "work_history": [
+      {
+        "role": "Junior ML Engineer",
+        "employer": "Pinnacle ML",
+        "months": 6,
+        "summary": "Nature performance yeah reason property. On professional analysis color exist smile. Even let war at produce production tree growth."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Orion ML",
+        "months": 8,
+        "summary": "Fall third hit. Meet report tough machine others because."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Vertex Data",
+        "months": 6,
+        "summary": "Whom night Republican always two figure majority. Adult range green few."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Pinnacle ML",
+        "months": 12,
+        "summary": "Speech personal these three spring. Want we difficult. Today prevent because him whether partner."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. AI",
+        "school": "IIT Madras",
+        "year": 2024
+      }
+    ],
+    "source_channel": "agency",
+    "_canonical_id": "person_047"
+  },
+  {
+    "ats_id": "ats_person_049",
+    "full_name": "Mr. Robert Franklin MD",
+    "email": "mark68@example.org",
+    "phone_number": "001-739-601-9817x946",
+    "city": "Buffalo, NY",
+    "tenure_years": 3.2,
+    "role": "Software Engineer (AI/ML)",
+    "bio": "Offer perhaps until pass market role marriage space this discussion fact cover brother let someone. Yourself increase free night point action cut example. Film media food accept. How notice whether story create street. Trouble something population loss physical throughout Mr. Leg sport until argue minute north.",
+    "tags": [
+      "GPT",
+      "Python",
+      "aws",
+      "Time series",
+      "Machine Learning",
+      "PostgreSQL",
+      "PyTorch",
+      "spaCy"
+    ],
+    "work_history": [
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Polaris Tech",
+        "months": 13,
+        "summary": "Process law kind over according think everything pick. Any challenge president already take."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "DataDyne",
+        "months": 20,
+        "summary": "Fear turn any indicate condition public particularly reality. Occur no whom see growth along shoulder follow. Star serve successful assume likely business."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech IT",
+        "school": "Georgia Tech",
+        "year": 2023
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_049"
+  },
+  {
+    "ats_id": "ats_person_052",
+    "full_name": "Zachary Santiago",
+    "email": "mitchellchristopher@example.net",
+    "phone_number": "344-429-4440",
+    "city": "Austin, TX",
+    "tenure_years": 2.7,
+    "role": "Associate Data Scientist",
+    "bio": "School process have compare site door Congress month almost worker whose other start study sell include. Produce rise cold official success. Politics sense break. Less live live way. Here relationship listen certain that. Eye something high. Which raise American truth PM what.",
+    "tags": [
+      "machine learning",
+      "Python",
+      "RAG",
+      "LangChain",
+      "Large Language Models",
+      "spaCy",
+      "fastapi",
+      "MS Azure"
+    ],
+    "work_history": [
+      {
+        "role": "Associate Data Scientist",
+        "employer": "Lumen Data",
+        "months": 6,
+        "summary": "Author administration return. Price window career case south team throw."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Synapse Labs",
+        "months": 6,
+        "summary": "Perhaps lawyer interest star his difficult. Painting official suggest door maybe improve. Office almost also low happy oil which. Center rule worker worker."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Catalyst AI",
+        "months": 7,
+        "summary": "Might model particular early piece professional protect. Something fine apply gas sing light mention."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Vertex Data",
+        "months": 13,
+        "summary": "Safe inside whether sometimes eye along type. Risk nor article list college. Prevent factor say."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Data Science",
+        "school": "Carnegie Mellon",
+        "year": 2022
+      }
+    ],
+    "source_channel": "career_site",
+    "_canonical_id": "person_052"
+  },
+  {
+    "ats_id": "ats_person_053",
+    "full_name": "Thomas Garrison",
+    "email": "dakota11@example.net",
+    "phone_number": "001-247-907-2006x4256",
+    "city": "Seattle, WA",
+    "tenure_years": 3.5,
+    "role": "Data Scientist",
+    "bio": "Job such sit size music about west stand lot note various grow radio hundred. Half table future subject. Possible computer always his course. To piece grow be plan same. Along agent you draw. Society poor matter who. Whom administration fund front return if deep. Learn question them chance often under already.",
+    "tags": [
+      "python3",
+      "spaCy",
+      "ML",
+      "Amazon Web Services"
+    ],
+    "work_history": [
+      {
+        "role": "Data Scientist",
+        "employer": "Pinnacle ML",
+        "months": 6,
+        "summary": "Environment better pressure hospital significant. Same open crime front real. Finish action across attack."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Acme AI",
+        "months": 13,
+        "summary": "Moment rate goal rise. Cover agency begin voice prevent. Wear point remain build task."
+      },
+      {
+        "role": "ML Engineer",
+        "employer": "Nimbus Analytics",
+        "months": 11,
+        "summary": "Prevent tonight not whose to receive. Far produce away law yet."
+      },
+      {
+        "role": "AI Engineer",
+        "employer": "Pinnacle ML",
+        "months": 12,
+        "summary": "Either sit everyone artist home you. Western enough key man up. Hotel population board music issue pass blood kid."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Data Science",
+        "school": "IIT Delhi",
+        "year": 2022
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_053"
+  },
+  {
+    "ats_id": "ats_person_054",
+    "full_name": "Matthew Ruiz",
+    "email": "watkinsmatthew@example.org",
+    "phone_number": "326-825-8273x902",
+    "city": "Toronto, Canada",
+    "tenure_years": 4.0,
+    "role": "Software Engineer (AI/ML)",
+    "bio": "Administration main according conference become prepare thought indicate southern. Deal policy mission include. Particular also conference matter. Physical site girl above. Brother morning believe gun seven. Medical less phone decade apply both chance.",
+    "tags": [
+      "AWS",
+      "Py",
+      "Machine Learning",
+      "Torch",
+      "spaCy"
+    ],
+    "work_history": [
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Vertex Data",
+        "months": 48,
+        "summary": "Drug possible add. Anyone film soldier lay color opportunity stand blood. Organization past as dark front structure scene. Food wish office case student soldier."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. Computer Science",
+        "school": "NIT Trichy",
+        "year": 2022
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_054"
+  },
+  {
+    "ats_id": "ats_person_055",
+    "full_name": "Susan Jimenez",
+    "email": "charlesrichards@example.org",
+    "phone_number": "(723)497-2652x73543",
+    "city": "Remote",
+    "tenure_years": 1.8,
+    "role": "ML Engineer I",
+    "bio": "Realize arrive carry surface learn commercial gas. Church some well town official need discover in. Majority yet option student evidence role save. Force often through option chance. Together individual analysis yard safe mean international.",
+    "tags": [
+      "SQL",
+      "Kubernetes",
+      "docker",
+      "Python 3",
+      "Java"
+    ],
+    "work_history": [
+      {
+        "role": "ML Engineer I",
+        "employer": "Quantum Labs",
+        "months": 15,
+        "summary": "Approach hair decide. Free source serve analysis science."
+      },
+      {
+        "role": "Software Engineer (AI/ML)",
+        "employer": "Acme AI",
+        "months": 6,
+        "summary": "Citizen ahead method audience. Return or for cup quality. Discover body direction down include customer."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "B.Tech IT",
+        "school": "University at Buffalo",
+        "year": 2025
+      }
+    ],
+    "source_channel": "campus",
+    "_canonical_id": "person_055"
+  },
+  {
+    "ats_id": "ats_person_057",
+    "full_name": "Kelly Burton",
+    "email": "robert55@example.com",
+    "phone_number": "001-488-677-4924",
+    "city": "Mumbai, India",
+    "tenure_years": 3.5,
+    "role": "AI Engineer",
+    "bio": "Machine wife show another good lay coach under Republican expect. Claim bring year off. Employee continue none alone first gas. Music class feeling turn identify material certainly. Until choose wife national medical positive far. Wide senior yes project son.",
+    "tags": [
+      "aws",
+      "Python 3",
+      "Machine Learning"
+    ],
+    "work_history": [
+      {
+        "role": "AI Engineer",
+        "employer": "Helix AI",
+        "months": 42,
+        "summary": "Wide must car get kitchen popular. Country against soon strong mind."
+      }
+    ],
+    "academics": [
+      {
+        "qualification": "M.S. AI",
+        "school": "IIT Delhi",
+        "year": 2022
+      }
+    ],
+    "source_channel": "referral",
+    "_canonical_id": "person_057"
+  }
+]

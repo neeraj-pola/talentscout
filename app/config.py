@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     database_url: str = "sqlite:///./talentscout.db"
     chroma_path: str = "./chroma_db"
     log_level: str = "INFO"
+    mock_sources_base_url: str = "http://localhost:9417"
 
     # Tunables
     max_profiles_per_source: int = 40
