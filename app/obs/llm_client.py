@@ -3,12 +3,16 @@
 
 Why: gives us free retries, observability, cost tracking, and a single
 swap-point if we ever change provider.
+
+Two clients exposed:
+  - `chat()` / `embed()` use a SYNC OpenAI client (default path for agents).
+  - `get_async_client()` returns an ASYNC OpenAI client for agents that need
+    to fan out concurrent calls (e.g. screening).
 """
-import json
 import time
 from typing import Type, TypeVar
 
-from openai import OpenAI
+from openai import OpenAI, AsyncOpenAI
 from pydantic import BaseModel
 from tenacity import (
     retry, stop_after_attempt, wait_exponential,
@@ -21,6 +25,7 @@ from app.obs.cost import record_cost
 from app.obs.events import log_event
 
 _client = OpenAI(api_key=settings.openai_api_key)
+_async_client = AsyncOpenAI(api_key=settings.openai_api_key)
 T = TypeVar("T", bound=BaseModel)
 
 
@@ -39,9 +44,8 @@ def chat(
     temperature: float = 0.2,
     max_tokens: int = 2000,
 ) -> str | BaseModel:
-    """Call OpenAI chat. Logs cost + event. If response_format is a Pydantic
-    class, return a parsed instance; otherwise return raw string.
-    """
+    """Call OpenAI chat (sync). Logs cost + event. If response_format is a
+    Pydantic class, return a parsed instance; otherwise return raw string."""
     model = model or settings.openai_model_heavy
     t0 = time.time()
 
@@ -56,7 +60,6 @@ def chat(
 
     try:
         if response_format is not None:
-            # Structured output via Pydantic class
             response = _client.beta.chat.completions.parse(
                 **kwargs, response_format=response_format,
             )
@@ -94,7 +97,7 @@ def chat(
 
 
 def embed(texts: list[str], jd_id: str | None = None, agent: str = "embed") -> list[list[float]]:
-    """Get embeddings. Logged and cost-tracked."""
+    """Get embeddings (sync). Logged and cost-tracked."""
     model = settings.openai_embedding_model
     t0 = time.time()
     log_event(jd_id, agent, "embed_start", model=model, n_texts=len(texts))
@@ -117,3 +120,13 @@ def embed(texts: list[str], jd_id: str | None = None, agent: str = "embed") -> l
         usd=round(usd, 6), latency_ms=round(latency_ms, 1),
     )
     return [d.embedding for d in response.data]
+
+
+def get_async_client() -> AsyncOpenAI:
+    """Return the shared async OpenAI client.
+
+    Use this when an agent needs to fan out many LLM calls concurrently
+    (e.g. screening scores ~90 (candidate, criterion) pairs in parallel).
+    The async client supports `await client.beta.chat.completions.parse(...)`.
+    """
+    return _async_client
