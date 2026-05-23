@@ -117,6 +117,34 @@ def main():
             print(f"           evidence:  {ev_preview!r}")
 
     # ----------------------------------------------------------------
+    # 3b. Diagnostic: full breakdown of the #1 candidate's NICE-TO-HAVE scores
+    # ----------------------------------------------------------------
+    print(f"\n--- Step 3b: Full nice-to-have breakdown for #1 ({scored[0].candidate_name}) ---")
+    top_candidate = scored[0]
+    nice_scores = [
+        cs for cs in top_candidate.criterion_scores
+        if cs.criterion_id.startswith("nice")
+    ]
+    print(f"   Total nice-to-have criteria: {len(nice_scores)}")
+    for cs in nice_scores:
+        print(f"\n   {cs.criterion_id}: '{cs.criterion_text}'")
+        print(f"     score={cs.score:.2f}  confidence={cs.confidence:.2f}")
+        print(f"     reasoning: {cs.reasoning}")
+        print(f"     evidence:  {cs.evidence!r}")
+
+    # Also show that the top candidate WAS scored on every criterion
+    must_count = sum(1 for cs in top_candidate.criterion_scores if cs.criterion_id.startswith("must"))
+    nice_count = sum(1 for cs in top_candidate.criterion_scores if cs.criterion_id.startswith("nice"))
+    print(f"\n   {top_candidate.candidate_name} was scored on "
+          f"{must_count} must-haves + {nice_count} nice-to-haves = "
+          f"{len(top_candidate.criterion_scores)} total")
+
+    # And confirm what the candidate's profile actually contains
+    from app.rag.indexer import HybridIndex
+    profile = src.index.get_profile(str(top_candidate.profile_id))
+    if profile:
+        print(f"\n   {top_candidate.candidate_name}'s skills: {profile.skills}")
+    # ----------------------------------------------------------------
     # 4. Sanity assertions
     # ----------------------------------------------------------------
     print(f"\n--- Step 4: Quality checks ---")

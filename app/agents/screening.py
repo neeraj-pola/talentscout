@@ -8,11 +8,14 @@ carries:
   - a VERBATIM quote from the profile as evidence (or "No evidence found")
   - 1-2 sentences of reasoning
   - a confidence level
+  - a has_evidence flag (distinguishes "scored zero with evidence" from
+    "no evidence to evaluate against")
 
 Why this design:
   - Auditability — reviewers can click into any score and see the quote
   - Defensible — "Why was this candidate ranked 4th?" has a real answer
   - Robustness — evidence requirement reduces hallucination
+  - Explainability — coverage % distinguishes a profile gap from a low score
   - Aligns with the spec: "per-criterion basis (not a single opaque score),
     with reasoning for each score"
 
@@ -172,11 +175,19 @@ async def _score_one_pair(
                     wire.score = min(wire.score, 0.2)
                     wire.confidence = min(wire.confidence, 0.3)
 
+            # has_evidence: True when we have a real verbatim quote
+            # False when "No evidence found." or rejected non-verbatim
+            has_evidence = (
+                verified_evidence != "No evidence found."
+                and not verified_evidence.startswith("[NON-VERBATIM")
+            )
+
             log_event(jd_id, "screening", "score_pair_end",
                       candidate=candidate.full_name,
                       criterion_id=criterion.id,
                       score=round(wire.score, 2),
                       confidence=round(wire.confidence, 2),
+                      has_evidence=has_evidence,
                       latency_ms=round(latency_ms, 1))
 
             return CriterionScore(
@@ -186,6 +197,7 @@ async def _score_one_pair(
                 evidence=verified_evidence,
                 reasoning=wire.reasoning,
                 confidence=wire.confidence,
+                has_evidence=has_evidence,
             )
 
         except Exception as e:
@@ -193,7 +205,9 @@ async def _score_one_pair(
                       candidate=candidate.full_name,
                       criterion_id=criterion.id,
                       error=str(e))
-            # Return a neutral, low-confidence score so one bad call doesn't kill the run
+            # Return a neutral, low-confidence score so one bad call doesn't kill the run.
+            # has_evidence=False because the scoring itself failed — we can't claim
+            # to have looked at the profile.
             return CriterionScore(
                 criterion_id=criterion.id,
                 criterion_text=criterion.text,
@@ -201,6 +215,7 @@ async def _score_one_pair(
                 evidence="No evidence found.",
                 reasoning=f"Scoring failed: {e!s}",
                 confidence=0.0,
+                has_evidence=False,
             )
 
 
@@ -213,9 +228,20 @@ def _aggregate_candidate(
     criterion_scores: list[CriterionScore],
     criteria_index: dict[str, Criterion],
 ) -> ScoredCandidate:
-    """Roll per-criterion scores into a single ScoredCandidate."""
+    """Roll per-criterion scores into a single ScoredCandidate.
+
+    Two distinct measures emerge:
+      - score:    0.0 means "criterion not met" (a real assessment)
+      - coverage: fraction of criteria where evidence was actually found.
+                  Low coverage tells the recruiter "this candidate has gaps in
+                  what we can verify" — distinct from "this candidate scored low".
+    """
     must_scores: list[float] = []
     nice_scores: list[float] = []
+    must_with_evidence = 0
+    nice_with_evidence = 0
+    must_total = 0
+    nice_total = 0
     red_flags: list[str] = []
     has_gap = False
 
@@ -223,6 +249,9 @@ def _aggregate_candidate(
         criterion = criteria_index[cs.criterion_id]
         if criterion.is_must_have:
             must_scores.append(cs.score)
+            must_total += 1
+            if cs.has_evidence:
+                must_with_evidence += 1
             if cs.score < settings.must_have_penalty_threshold:
                 red_flags.append(
                     f"Weak on must-have '{criterion.text}' (score {cs.score:.2f})"
@@ -230,6 +259,9 @@ def _aggregate_candidate(
                 has_gap = True
         else:
             nice_scores.append(cs.score)
+            nice_total += 1
+            if cs.has_evidence:
+                nice_with_evidence += 1
 
     must_avg = sum(must_scores) / len(must_scores) if must_scores else 0.0
     nice_avg = sum(nice_scores) / len(nice_scores) if nice_scores else 0.0
@@ -239,12 +271,17 @@ def _aggregate_candidate(
 
     overall = 0.75 * must_avg + 0.25 * nice_avg
 
+    must_coverage = must_with_evidence / must_total if must_total else 1.0
+    nice_coverage = nice_with_evidence / nice_total if nice_total else 1.0
+
     return ScoredCandidate(
         profile_id=candidate.id,
         candidate_name=candidate.full_name,
         criterion_scores=criterion_scores,
         must_have_score=round(must_avg, 4),
         nice_to_have_score=round(nice_avg, 4),
+        must_have_coverage=round(must_coverage, 4),
+        nice_to_have_coverage=round(nice_coverage, 4),
         overall_score=round(overall, 4),
         red_flags=red_flags,
         has_must_have_gap=has_gap,

@@ -12,6 +12,7 @@ class CriterionScore(BaseModel):
     evidence: str  # direct quote from profile (or "No evidence found")
     reasoning: str
     confidence: float = Field(ge=0.0, le=1.0)
+    has_evidence: bool = True  # False when "No evidence found." or scoring failed
 
 
 class ScoredCandidate(BaseModel):
@@ -20,6 +21,8 @@ class ScoredCandidate(BaseModel):
     criterion_scores: list[CriterionScore]
     must_have_score: float
     nice_to_have_score: float
+    must_have_coverage: float = 1.0       # fraction of must-haves with evidence
+    nice_to_have_coverage: float = 1.0    # fraction of nice-to-haves with evidence
     overall_score: float
     overall_rationale: str = ""
     red_flags: list[str] = []
