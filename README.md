@@ -255,9 +255,6 @@ why two-layer guardrails, why UUID-blind ranking, etc.) are in
 
 ## What the UI shows
 
-(Screenshots are in `docs/screenshots/`. If they're missing, capture them
-from a local run — `pipeline.png`, `shortlist.png`, `refine.png`, `cost.png`.)
-
 - **Intake tab**: form to submit a new JD.
 - **Pipeline tab** (`docs/screenshots/pipeline.png`): visual flowchart of the
   8 nodes with per-node status, duration, cost, and number of LLM calls. Live
