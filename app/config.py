@@ -6,8 +6,9 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
     openai_api_key: str
-    openai_model_heavy: str = "gpt-4o"
+    openai_model_heavy: str = "gpt-4o-mini"     # default to the cheap, tested model
     openai_model_light: str = "gpt-4o-mini"
+    openai_model_cheap: str | None = None       # alias used by profile_summary
     openai_embedding_model: str = "text-embedding-3-small"
 
     database_url: str = "sqlite:///./talentscout.db"
