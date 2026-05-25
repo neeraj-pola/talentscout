@@ -8,8 +8,8 @@ retrieval (Chroma + BM25 + RRF + bge-reranker) for candidate search, and a
 two-layer bias guardrail (regex + LLM classifier) for legally-sensitive
 phrasing.
 
-Stack: Python 3.11, LangGraph, FastAPI, Streamlit, SQLite, ChromaDB, OpenAI
-SDK, sentence-transformers (for the cross-encoder reranker).
+Stack: Python 3.11 / 3.12 / 3.13, LangGraph, FastAPI, Streamlit, SQLite,
+ChromaDB, OpenAI SDK, sentence-transformers (for the cross-encoder reranker).
 
 ---
 
@@ -86,7 +86,8 @@ Run the suite yourself with `python -m scripts.run_test_suite` (writes a fresh
 
 ### Requirements
 
-- Python 3.11 or newer
+- Python 3.11, 3.12, or 3.13 (3.14 not yet supported — some dependencies
+  don't have wheels for it)
 - An OpenAI API key with billing enabled (the project uses `gpt-4o-mini`)
 - About 50 MB of disk space for the bge-reranker model (downloaded on first run)
 - macOS, Linux, or WSL on Windows
@@ -96,35 +97,43 @@ Run the suite yourself with `python -m scripts.run_test_suite` (writes a fresh
 ```bash
 git clone https://github.com/neeraj-pola/talentscout
 cd talentscout
-chmod +x run.sh
 ./run.sh
 ```
 
 The first time you run `./run.sh` it will:
-1. Create a Python virtual environment in `.venv/`
-2. Install dependencies from `requirements.txt`
-3. Copy `.env.example` to `.env` and stop with a message asking you to add
+1. Detect a compatible Python version (3.11–3.13)
+2. Create a Python virtual environment in `.venv/`
+3. Install dependencies from `requirements.txt` (takes 3-5 minutes the first time
+   — downloads PyTorch, sentence-transformers, etc.)
+4. Copy `.env.example` to `.env` and stop with a message asking you to add
    your OpenAI key
-4. After you add the key, re-run `./run.sh`
+5. After you add the key, re-run `./run.sh`
 
 On subsequent runs it will:
-1. Activate the existing venv
+1. Activate the existing venv (instant)
 2. Start the mock candidate-source HTTP server on port 9417
-3. Start the FastAPI orchestrator on port 8000
+3. Start the FastAPI orchestrator on port 8000 (the first start after install
+   takes 30-60s while torch/chromadb load into memory; subsequent starts are
+   <5s)
 4. Start the Streamlit UI on port 8501 (foreground, so you see its logs)
 
-Press **Ctrl+C once** to kill all three processes.
+Press **Ctrl+C once** to kill all three processes cleanly.
 
-### Open the UI
+### Try a demo JD
 
-After the script reports all three services are up:
+After the UI loads at `http://localhost:8501`, open [`demo/README.md`](demo/README.md)
+— it lists 10 ready-to-paste JDs you can submit to the Intake form, each
+demonstrating a specific behavior (happy path, calibration, guardrail
+rejection, etc.).
 
-```
-http://localhost:8501
-```
+Quick demo path:
+- `demo/02_backend_engineer_fintech.md` — clean happy path, strong top pick
+- `demo/08_niche_rust_embedded.md` — calibration test, top pick scores 0.00
+- `demo/09_coded_age_bias.md` — guardrail rejection in <2s
 
-Click **New JD**, paste a job description into the form, submit, and watch
-the pipeline run live (the Pipeline tab updates as each node completes).
+After running `demo/05_time_series_ml_engineer.md`, try the **Refine** view
+to chat naturally with the shortlist (filter by years, compare candidates,
+ask why someone ranked highly).
 
 ---
 
@@ -183,7 +192,16 @@ talentscout/
 │   └── models/               # Pydantic models
 │
 ├── ui/                       # Streamlit frontend
-│   └── views/                # one file per tab (intake, pipeline, shortlist, refine)
+│   ├── app.py                # entry point — Streamlit runs this
+│   ├── api_client.py         # HTTP client for the FastAPI backend
+│   ├── styles.py             # shared CSS
+│   └── views/
+│       ├── dashboard.py      # JD list landing page
+│       ├── intake.py         # new-JD form
+│       ├── pipeline.py       # live pipeline flowchart
+│       ├── detail.py         # JD detail — shortlist, top pick, outreach drafts
+│       ├── refine.py         # natural-language refinement chat
+│       └── audits.py         # closure audit records
 │
 ├── mock_sources_api/         # mock HTTP server for the 3 candidate sources
 │   ├── server.py
@@ -192,10 +210,19 @@ talentscout/
 ├── scripts/                  # standalone scripts (test suite, mock data loaders)
 │   └── run_test_suite.py
 │
+├── demo/                     # ready-to-paste JD demos for the reviewer
+│   ├── README.md
+│   ├── 01_senior_ml_engineer.md
+│   ├── ... (10 demo JDs total)
+│   └── 10_polished_nationality_bias.md
+│
 └── docs/                     # additional docs
-    ├── decisions.md          # design choices + trade-offs
     ├── architecture.md       # agent topology + data flow
-    └── screenshots/          # UI screenshots referenced from this README
+    ├── decisions.md          # design choices + trade-offs
+    ├── pipeline.png          # UI screenshots referenced from this README
+    ├── shortlist.png
+    ├── refine.png
+    └── cost.png
 ```
 
 ---
@@ -247,30 +274,52 @@ talentscout/
 ```
 
 A more detailed architecture description — including the tool layer, the data
-flow, and the full state model — is in `docs/architecture.md`. Design
-trade-offs and the reasoning behind specific choices (why hybrid retrieval,
-why two-layer guardrails, why UUID-blind ranking, etc.) are in
-`docs/decisions.md`.
+flow, and the full state model — is in [`docs/architecture.md`](docs/architecture.md).
+Design trade-offs and the reasoning behind specific choices (why hybrid
+retrieval, why two-layer guardrails, why UUID-blind ranking, etc.) are in
+[`docs/decisions.md`](docs/decisions.md).
 
 ---
 
 ## What the UI shows
 
-- **Intake tab**: form to submit a new JD.
-- **Pipeline tab** ![Pipeline view](docs/pipeline.png) visual flowchart of the
-  8 nodes with per-node status, duration, cost, and number of LLM calls. Live
-  activity log on the right shows agent events as they happen.
-- **Shortlist tab** ![Pipeline view](docs/shortlist.png) top 10 ranked
-  candidates with overall scores, per-criterion coverage percentages, the
-  bias-blind profile summary, the LLM's overall rationale, and red-flag
-  indicators (⚠) when must-have gaps exist.
-- **Refine tab** ![Pipeline view](docs/refine.png) natural-language chat
-  against the shortlist. Active filters shown as pills at the top. Live
-  filtered preview on the right.
-- **Outreach tab**: three personalized outreach drafts (LinkedIn InMail,
-  email subject, email body) for the top candidates.
-- **Cost / observability** ![Pipeline view](docs/cost.png) total cost, LLM
-  call count, per-agent breakdown.
+The UI has six views, accessible from the sidebar.
+
+**Dashboard** — list of all JDs you've submitted, with their status (in
+progress, shortlisted, rejected, closed). Click any JD to open its detail.
+
+**Intake** — form to submit a new JD. Fields: title, description, must-have
+skills, nice-to-have skills, YOE band, location, employment type, target
+hiring date.
+
+**Pipeline** — live flowchart of the 8 pipeline nodes with per-node status,
+duration, cost, and number of LLM calls. Live activity log on the right
+shows agent events as they happen. The cost / observability panel sits
+alongside the flowchart — total cost, LLM call count, per-agent breakdown.
+
+![Pipeline view](docs/pipeline.png)
+
+![Cost summary](docs/cost.png)
+
+**Detail** — for a completed JD: top 10 ranked candidates with overall
+scores, per-criterion coverage percentages, the bias-blind profile summary,
+the LLM's overall rationale, red-flag indicators (⚠) when must-have gaps
+exist. The Detail view also shows the top pick recommendation and the
+generated outreach drafts (LinkedIn InMail + email subject + body) for the
+top candidates.
+
+![Shortlist view](docs/shortlist.png)
+
+**Refine** — natural-language chat against the shortlist. Active filters
+shown as pills at the top. Live filtered preview on the right. Each
+recruiter turn dispatches via OpenAI tool calling (11 tools registered,
+one per intent).
+
+![Refine view](docs/refine.png)
+
+**Audits** — record of every JD that's been formally closed with a chosen
+candidate, including the justification, the ranking snapshot, total cost,
+and who closed it.
 
 ---
 
@@ -282,8 +331,8 @@ ranking, top-pick, outreach). gpt-4o-mini latency is ~400ms per call. So a
 full pipeline takes 90-200 seconds. This is the trade-off for evidence-backed
 scoring — every score traces back to a verbatim quote from the candidate's
 profile. A "one LLM call per candidate" approach would finish in 30 seconds
-but produce scores you can't audit. See `docs/decisions.md` for the full
-reasoning.
+but produce scores you can't audit. See [`docs/decisions.md`](docs/decisions.md)
+for the full reasoning.
 
 **Why mock candidate sources instead of real LinkedIn / Naukri?**
 LinkedIn Talent Solutions and Naukri Resdex are partner-only APIs requiring
@@ -291,7 +340,7 @@ enterprise contracts. The mock servers speak the same shape a real adapter
 would (search by query + location + YOE band, paginate, fetch detail by ID).
 Swapping to real sources is per-source adapter work, not architectural —
 about 2 weeks of engineering once API access is granted. See
-`docs/decisions.md` for the integration roadmap.
+[`docs/decisions.md`](docs/decisions.md) for the integration roadmap.
 
 **Where does state live?**
 Everything in SQLite (`talentscout.db`). JD records, parsed JDs, deduped
@@ -307,4 +356,3 @@ rm -rf chroma_db/ test_results/
 find . -type d -name __pycache__ -exec rm -rf {} +
 ```
 Then restart `./run.sh`. The UI will show "no JDs yet."
-
