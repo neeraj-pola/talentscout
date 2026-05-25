@@ -273,20 +273,33 @@ done
 # 8. Start FastAPI orchestrator (port 8000)
 # ────────────────────────────────────────────────────────────────────
 info "Starting FastAPI orchestrator on port $API_PORT..."
+info "(first start may take 30-60s while torch/chromadb load — this is normal)"
 python -m uvicorn app.api.server:app \
     --host 0.0.0.0 --port $API_PORT \
     > "$PID_DIR/api.log" 2>&1 &
 echo $! > "$PID_DIR/api.pid"
 
-# Wait for API to be ready
-for i in $(seq 1 60); do
+# Wait for API to be ready. We poll for up to 90s because the first
+# import of torch + chromadb + sentence-transformers can be slow on a
+# cold cache (no .pyc files yet, model weights not yet memory-mapped).
+# Subsequent starts complete in <5s.
+API_TIMEOUT=180   # 180 iterations × 0.5s = 90s
+for i in $(seq 1 $API_TIMEOUT); do
     if curl -s "http://localhost:$API_PORT/health" > /dev/null 2>&1; then
         ok "API ready (pid $(cat "$PID_DIR/api.pid"))"
         break
     fi
+    # Print a "still waiting" message every 15s so the user knows
+    # something is happening (not frozen)
+    if [ $((i % 30)) -eq 0 ] && [ $i -ne $API_TIMEOUT ]; then
+        info "still waiting for API ($((i / 2))s elapsed)..."
+    fi
     sleep 0.5
-    if [ $i -eq 60 ]; then
-        error "API failed to start within 30s. See $PID_DIR/api.log"
+    if [ $i -eq $API_TIMEOUT ]; then
+        error "API failed to start within 90s. See $PID_DIR/api.log"
+        echo ""
+        echo "Last 20 lines of the API log:"
+        tail -20 "$PID_DIR/api.log" 2>/dev/null | sed 's/^/    /'
         exit 1
     fi
 done
