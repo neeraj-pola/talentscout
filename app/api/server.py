@@ -27,7 +27,7 @@ from app.api.deps import ensure_db_initialized
 from app.api.schemas import (
     CreateJDRequest, CloseJDRequest,
     PipelineRunResponse, JDDetailResponse, JDSummary,
-    AuditRecordResponse, HealthResponse,
+    AuditRecordResponse, HealthResponse,RefineRequest, RefineResponse,
 )
 from app.models import JD, AuditRecord
 from app.orchestrator import run_pipeline, get_checkpoint
@@ -39,6 +39,7 @@ from app.storage.db import get_session, JDRow
 from app.obs.cost import get_cost_summary
 from app.obs.events import get_events_for_jd
 from app.tools.sources import LinkedInMockSource
+from app.agents.refinement import run_refinement
 
 
 # ============================================================
@@ -160,15 +161,44 @@ def get_jd_detail(jd_id: UUID):
     if jd is None:
         raise HTTPException(status_code=404, detail=f"JD {jd_id} not found")
 
-    # Read the cached pipeline output from the DB (stored by the orchestrator nodes)
+    # Read the cached pipeline output from the DB
     with get_session() as s:
         row = s.query(JDRow).filter(JDRow.id == str(jd_id)).first()
         parsed_jd = json.loads(row.parsed_jd_json) if row and row.parsed_jd_json else None
         shortlist = json.loads(row.shortlist_json) if row and row.shortlist_json else []
         top_pick = json.loads(row.top_pick_json) if row and row.top_pick_json else None
         outreach_drafts = json.loads(row.outreach_json) if row and row.outreach_json else []
+        # New fields added for sourcing, profiles, guardrails, refinement
+        profiles = json.loads(row.profiles_json) if row and row.profiles_json else []
+        sourcing_summary_db = json.loads(row.sourcing_json) if row and row.sourcing_json else None
+        merge_audit_db = json.loads(row.merge_audit_json) if row and row.merge_audit_json else []
+        guardrail_verdict = json.loads(row.guardrail_verdict_json) if row and row.guardrail_verdict_json else None
 
-    # Pull supplementary info from the checkpoint (sourcing details, merge audit)
+    # Load refinement state (conversation history + filter stack + cost)
+    from app.storage.jd_repo import load_refinement_state
+    refinement_state = load_refinement_state(jd_id) or {
+        "conversation_history": [],
+        "filter_stack": [],
+        "total_refinement_cost_usd": 0.0,
+    }
+
+    # Compute refined_shortlist by applying the persisted filter_stack to
+    # the full shortlist. The UI displays this so what the user sees matches
+    # the backend's filter state.
+    filter_stack = refinement_state.get("filter_stack") or []
+    if filter_stack and shortlist:
+        try:
+            from app.agents.refinement import _apply_filter_stack
+            profiles_by_id = {p["id"]: p for p in profiles}
+            refined_shortlist = _apply_filter_stack(shortlist, profiles_by_id, filter_stack)
+        except Exception:
+            refined_shortlist = shortlist
+    else:
+        refined_shortlist = shortlist
+    refinement_state["refined_shortlist"] = refined_shortlist
+
+    # Pull supplementary info from the checkpoint (fallback for older JDs that
+    # don't have sourcing/merge data in the new columns)
     snapshot = get_checkpoint(str(jd_id)) or {}
 
     return JDDetailResponse(
@@ -178,10 +208,13 @@ def get_jd_detail(jd_id: UUID):
         shortlist=shortlist,
         top_pick=top_pick,
         outreach_drafts=outreach_drafts,
-        merge_audit=snapshot.get("merge_audit", []),
-        sourcing_summary=snapshot.get("sourcing_result"),
+        merge_audit=merge_audit_db or snapshot.get("merge_audit", []),
+        sourcing_summary=sourcing_summary_db or snapshot.get("sourcing_result"),
         cost_summary=get_cost_summary(str(jd_id)),
         events=get_events_for_jd(str(jd_id)),
+        guardrail_verdict=guardrail_verdict,
+        refinement_state=refinement_state,
+        profiles=profiles,
     )
 
 
@@ -263,6 +296,50 @@ def get_events(jd_id: UUID, limit: int = 100):
 def list_all_audits():
     return [AuditRecordResponse(**a) for a in list_audits()]
 
+@app.post("/jds/{jd_id}/refine", response_model=RefineResponse)
+def refine_jd_endpoint(jd_id: UUID, req: RefineRequest):
+    """Apply one natural-language refinement turn against a shortlisted JD.
+
+    The refinement agent uses OpenAI tool calling to classify the recruiter's
+    intent into one of 11 tools (filter by YOE/location/skill, explain,
+    compare, regenerate outreach, find similar, get details, clarify), then
+    dispatches the matching handler. Conversation history and filter stack
+    persist across turns via refinement_state on the JD row.
+    """
+    # Verify JD exists and is in a state that supports refinement
+    jd = get_jd(jd_id)
+    if jd is None:
+        raise HTTPException(status_code=404, detail=f"JD {jd_id} not found")
+
+    if jd.status.value == "closed":
+        raise HTTPException(
+            status_code=409,
+            detail="Cannot refine a closed JD. Reopen or create a new one.",
+        )
+
+    if jd.status.value not in ("shortlisted",):
+        raise HTTPException(
+            status_code=409,
+            detail=(
+                f"JD status is '{jd.status.value}'. Refinement is only available "
+                "after the pipeline has produced a shortlist."
+            ),
+        )
+
+    # Run the refinement turn
+    result = run_refinement(str(jd_id), req.message)
+
+    return RefineResponse(
+        assistant_message=result.assistant_message,
+        intent=result.intent,
+        parameters=result.parameters,
+        active_filters=result.active_filters,
+        refined_shortlist=result.refined_shortlist,
+        metadata=result.metadata,
+        cost_usd=result.cost_usd,
+        n_llm_calls=result.n_llm_calls,
+        turn_latency_ms=result.turn_latency_ms,
+    )
 
 # ============================================================
 # Demo / catalog endpoints (handy for the UI)

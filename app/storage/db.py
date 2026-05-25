@@ -49,6 +49,12 @@ class JDRow(Base):
     shortlist_json = Column(Text, nullable=True)
     top_pick_json = Column(Text, nullable=True)
     outreach_json = Column(Text, nullable=True)
+    # Added for sourcing, profile_summary, guardrails, and refinement persistence
+    sourcing_json = Column(Text, nullable=True)            # SourcingResult summary
+    merge_audit_json = Column(Text, nullable=True)         # dedup merge log
+    profiles_json = Column(Text, nullable=True)            # deduped profiles + bias-blind summaries
+    guardrail_verdict_json = Column(Text, nullable=True)   # rejection reason + flagged phrases
+    refinement_state_json = Column(Text, nullable=True)    # conversation history + filter stack
 
 
 class AuditRow(Base):

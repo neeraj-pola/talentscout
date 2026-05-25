@@ -78,6 +78,9 @@ class JDDetailResponse(BaseModel):
     sourcing_summary: dict | None = None
     cost_summary: dict
     events: list[dict]
+    guardrail_verdict: dict | None = None
+    refinement_state: dict | None = None
+    profiles: list[dict] = []
 
 
 class AuditRecordResponse(BaseModel):
@@ -96,3 +99,20 @@ class HealthResponse(BaseModel):
     status: Literal["ok"]
     mock_server_reachable: bool
     db_initialized: bool
+
+class RefineRequest(BaseModel):
+    """POST /jds/{id}/refine payload — one natural-language turn from the recruiter."""
+    message: str = Field(min_length=1, max_length=2000)
+
+
+class RefineResponse(BaseModel):
+    """Returned by POST /jds/{id}/refine — one assistant turn + the updated state."""
+    assistant_message: str
+    intent: str
+    parameters: dict
+    active_filters: list[dict]
+    refined_shortlist: list[dict]
+    metadata: dict
+    cost_usd: float
+    n_llm_calls: int
+    turn_latency_ms: float

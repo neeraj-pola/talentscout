@@ -128,6 +128,46 @@ def node_sourcing(state: TalentScoutState) -> dict:
         "merge_audit": src.merge_audit,
     }
 
+# ============================================================
+# Node: profile_summary
+# ============================================================
+
+def node_profile_summary(state: TalentScoutState) -> dict:
+    """Generate bias-blind 2-3 sentence summaries for each deduped profile.
+
+    Runs between sourcing and screening. Profiles are summarized with names
+    and locations stripped so downstream agents can reference them without
+    leakage. The summarized profiles replace the cached objects.
+
+    Also persists profiles to the JD row (for refinement + UI display).
+    """
+    log_event(state["jd_id"], "graph", "node_start", node="profile_summary")
+    profiles = _profiles_cache.get(state["jd_id"])
+    if not profiles:
+        log_event(state["jd_id"], "graph", "node_end", node="profile_summary",
+                  n=0, reason="no_profiles_in_cache")
+        return {}
+
+    from app.agents.profile_summary import run_profile_summary
+    summarized = run_profile_summary(profiles, state["jd_id"])
+
+    # Replace cached profiles with summarized versions so screening reads them
+    _profiles_cache[state["jd_id"]] = summarized
+
+    # Persist to DB so refinement and the UI can read them later
+    try:
+        from app.storage.jd_repo import save_profiles
+        save_profiles(state["jd_id"], [_profile_to_dict(p) for p in summarized])
+    except Exception as e:
+        # Non-fatal — pipeline continues even if persistence fails
+        log_event(state["jd_id"], "profile_summary", "persist_error", error=str(e))
+
+    log_event(state["jd_id"], "graph", "node_end", node="profile_summary",
+              n=len(summarized))
+    return {
+        "deduped_profiles": [_profile_to_dict(p) for p in summarized],
+    }
+
 
 # ============================================================
 # Node: screening

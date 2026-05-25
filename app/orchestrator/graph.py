@@ -61,7 +61,9 @@ from app.obs.events import log_event
 from app.orchestrator.state import TalentScoutState, empty_state
 from app.orchestrator.nodes import (
     node_guardrails, route_after_guardrails,
-    node_jd_intake, node_sourcing, node_screening,
+    node_jd_intake, node_sourcing,
+    node_profile_summary,
+    node_screening,
     node_ranking, node_top_pick, node_outreach,
     cleanup_caches,
 )
@@ -83,6 +85,7 @@ def _build_graph():
     g.add_node("n_guardrails", node_guardrails)
     g.add_node("n_jd_intake", node_jd_intake)
     g.add_node("n_sourcing", node_sourcing)
+    g.add_node("n_profile_summary", node_profile_summary)
     g.add_node("n_screening", node_screening)
     g.add_node("n_ranking", node_ranking)
     g.add_node("n_top_pick", node_top_pick)
@@ -102,7 +105,8 @@ def _build_graph():
 
     # Linear from here
     g.add_edge("n_jd_intake", "n_sourcing")
-    g.add_edge("n_sourcing", "n_screening")
+    g.add_edge("n_sourcing", "n_profile_summary")
+    g.add_edge("n_profile_summary", "n_screening")
     g.add_edge("n_screening", "n_ranking")
     g.add_edge("n_ranking", "n_top_pick")
     g.add_edge("n_top_pick", "n_outreach")

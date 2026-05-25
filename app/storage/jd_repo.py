@@ -112,3 +112,110 @@ def close_jd(jd_id: UUID | str, candidate_id: UUID, closed_by: str) -> None:
             row.closed_at = datetime.utcnow()
             row.closed_by = closed_by
             row.closed_with_candidate_id = str(candidate_id)
+
+# ============================================================
+# Sourcing, profiles, guardrails, refinement state
+# ============================================================
+# Added to support refinement (needs profiles + refinement_state) and the
+# bias firewall (profile_summary writes back to profiles_json).
+
+def save_sourcing(
+    jd_id: UUID | str,
+    sourcing_summary: dict,
+    merge_audit: list[dict],
+) -> None:
+    """Persist the sourcing agent's summary + the dedup merge audit trail."""
+    with get_session() as s:
+        row = s.query(JDRow).filter(JDRow.id == str(jd_id)).first()
+        if row is None:
+            return
+        row.sourcing_json = json.dumps(sourcing_summary)
+        row.merge_audit_json = json.dumps(merge_audit)
+        s.commit()
+
+
+def save_profiles(jd_id: UUID | str, profiles: list[dict]) -> None:
+    """Persist the deduped candidate profiles (with bias-blind summaries)."""
+    with get_session() as s:
+        row = s.query(JDRow).filter(JDRow.id == str(jd_id)).first()
+        if row is None:
+            return
+        row.profiles_json = json.dumps(profiles)
+        s.commit()
+
+
+def load_profiles(jd_id: UUID | str) -> list[dict]:
+    """Read the deduped profiles back. Returns [] if never saved."""
+    with get_session() as s:
+        row = s.query(JDRow).filter(JDRow.id == str(jd_id)).first()
+        if row is None or not row.profiles_json:
+            return []
+        try:
+            return json.loads(row.profiles_json)
+        except json.JSONDecodeError:
+            return []
+
+
+def save_guardrail_verdict(jd_id: UUID | str, verdict) -> None:
+    """Persist the guardrail agent's verdict (reasons + flagged phrases)."""
+    # verdict can be a pydantic model or a dict — handle both
+    if hasattr(verdict, "model_dump"):
+        data = verdict.model_dump(mode="json")
+    elif hasattr(verdict, "dict"):
+        data = verdict.dict()
+    else:
+        data = dict(verdict)
+    with get_session() as s:
+        row = s.query(JDRow).filter(JDRow.id == str(jd_id)).first()
+        if row is None:
+            return
+        row.guardrail_verdict_json = json.dumps(data)
+        s.commit()
+
+
+def load_refinement_state(jd_id: UUID | str) -> dict:
+    """Read refinement state (conversation history + filter stack + total cost).
+
+    Returns a fresh empty state if the JD has never been refined.
+    """
+    with get_session() as s:
+        row = s.query(JDRow).filter(JDRow.id == str(jd_id)).first()
+        if row is None or not row.refinement_state_json:
+            return {
+                "conversation_history": [],
+                "filter_stack": [],
+                "total_refinement_cost_usd": 0.0,
+            }
+        try:
+            state = json.loads(row.refinement_state_json)
+        except json.JSONDecodeError:
+            return {
+                "conversation_history": [],
+                "filter_stack": [],
+                "total_refinement_cost_usd": 0.0,
+            }
+        # Defensive defaults for older state shapes
+        state.setdefault("conversation_history", [])
+        state.setdefault("filter_stack", [])
+        state.setdefault("total_refinement_cost_usd", 0.0)
+        return state
+
+
+def save_refinement_state(
+    jd_id: UUID | str,
+    conversation_history: list[dict],
+    filter_stack: list[dict],
+    total_refinement_cost_usd: float,
+) -> None:
+    """Persist one refinement turn's updated state."""
+    state = {
+        "conversation_history": conversation_history,
+        "filter_stack": filter_stack,
+        "total_refinement_cost_usd": float(total_refinement_cost_usd),
+    }
+    with get_session() as s:
+        row = s.query(JDRow).filter(JDRow.id == str(jd_id)).first()
+        if row is None:
+            return
+        row.refinement_state_json = json.dumps(state)
+        s.commit()
