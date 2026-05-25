@@ -91,29 +91,80 @@ cleanup() {
 trap cleanup INT TERM EXIT
 
 # ────────────────────────────────────────────────────────────────────
-# 1. Check for Python 3.11+
+# 1. Find a compatible Python (3.11, 3.12, or 3.13)
 # ────────────────────────────────────────────────────────────────────
-if ! command -v python3 >/dev/null 2>&1; then
-    error "python3 not found. Install Python 3.11 or newer."
+# We need 3.11+ for the type-union syntax used in the code, but the
+# scientific-Python ecosystem (torch, chromadb, sentence-transformers)
+# is generally a few months behind on supporting new Python releases.
+# As of mid-2026, 3.14 wheels for several deps are missing or unstable.
+# So we cap at 3.13 and try a few common interpreter names if the
+# default `python3` is outside the supported range.
+
+PYTHON_CMD=""
+SUPPORTED_MINORS=(13 12 11)   # tried in this order if `python3` itself is unusable
+
+check_python_version() {
+    # Returns 0 if version is in [3.11, 3.13]; 1 otherwise.
+    local cmd=$1
+    if ! command -v "$cmd" >/dev/null 2>&1; then
+        return 1
+    fi
+    local version
+    version=$("$cmd" -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")' 2>/dev/null) || return 1
+    local major=${version%.*}
+    local minor=${version#*.}
+    if [ "$major" -eq 3 ] && [ "$minor" -ge 11 ] && [ "$minor" -le 13 ]; then
+        return 0
+    fi
+    return 1
+}
+
+# Try the default `python3` first
+if check_python_version python3; then
+    PYTHON_CMD=python3
+else
+    # Default is unusable — try specific version names
+    for minor in "${SUPPORTED_MINORS[@]}"; do
+        if check_python_version "python3.$minor"; then
+            PYTHON_CMD="python3.$minor"
+            break
+        fi
+    done
+fi
+
+if [ -z "$PYTHON_CMD" ]; then
+    default_version=$(python3 -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")' 2>/dev/null || echo "not installed")
+    echo ""
+    error "No compatible Python interpreter found."
+    error "TalentScout requires Python 3.11, 3.12, or 3.13."
+    error "Your default python3 is: $default_version"
+    echo ""
+    echo "To fix this on macOS (Homebrew):"
+    echo "  brew install python@3.13"
+    echo "  Then re-run ./run.sh"
+    echo ""
+    echo "On Linux (apt):"
+    echo "  sudo apt install python3.13 python3.13-venv"
+    echo ""
+    echo "Or use pyenv to install and pin a version:"
+    echo "  pyenv install 3.13.0"
+    echo "  pyenv local 3.13.0"
+    echo ""
+    # Don't run cleanup on this exit (no processes started yet)
+    trap - INT TERM EXIT
+    rmdir "$PID_DIR" 2>/dev/null || true
     exit 1
 fi
 
-PY_VERSION=$(python3 -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')
-PY_MAJOR=$(echo "$PY_VERSION" | cut -d. -f1)
-PY_MINOR=$(echo "$PY_VERSION" | cut -d. -f2)
-
-if [ "$PY_MAJOR" -lt 3 ] || { [ "$PY_MAJOR" -eq 3 ] && [ "$PY_MINOR" -lt 11 ]; }; then
-    error "Python 3.11+ required (found $PY_VERSION)."
-    exit 1
-fi
-ok "Python $PY_VERSION"
+PY_VERSION=$("$PYTHON_CMD" -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}")')
+ok "Python $PY_VERSION ($PYTHON_CMD)"
 
 # ────────────────────────────────────────────────────────────────────
 # 2. Create venv if missing
 # ────────────────────────────────────────────────────────────────────
 if [ ! -d "$VENV_DIR" ]; then
     info "Creating virtual environment in $VENV_DIR/ ..."
-    python3 -m venv "$VENV_DIR"
+    "$PYTHON_CMD" -m venv "$VENV_DIR"
     ok "Virtual environment created"
 fi
 
