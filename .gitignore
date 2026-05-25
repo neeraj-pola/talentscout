@@ -9,3 +9,4 @@ events.jsonl
 .pytest_cache/
 .DS_Store
 *.egg-info/
+.talentscout/
