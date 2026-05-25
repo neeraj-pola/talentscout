@@ -1,0 +1,1672 @@
+[
+  {
+    "linkedin_id": "li_person_002",
+    "publicProfileUrl": "https://linkedin.com/in/brooke-yu",
+    "firstName": "Brooke",
+    "lastName": "Yu",
+    "headline": "Staff ML Engineer at Quantum Labs",
+    "location": {
+      "name": "Remote"
+    },
+    "summary": "Measure economy traditional anything plant. Analysis four capital woman claim. Relationship night born war real chance along. Old challenge camera final together someone. Together decide economic.",
+    "industry": "Computer Software",
+    "connections": 405,
+    "positions": [
+      {
+        "title": "Staff ML Engineer",
+        "companyName": "Quantum Labs",
+        "durationMonths": 40,
+        "description": "Attention attack technology identify. East organization people information on mission various."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "Catalyst AI",
+        "durationMonths": 41,
+        "description": "Draw how public feel first sell. Act perform none beyond."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "UC Berkeley",
+        "degreeName": "M.S. Data Science",
+        "graduationYear": 2018
+      }
+    ],
+    "skills": [
+      {
+        "name": "machine learning"
+      },
+      {
+        "name": "LLMs"
+      },
+      {
+        "name": "kubernetes"
+      },
+      {
+        "name": "python3"
+      },
+      {
+        "name": "docker"
+      }
+    ],
+    "yearsOfExperience": 7.0,
+    "_canonical_id": "person_002"
+  },
+  {
+    "linkedin_id": "li_person_003",
+    "publicProfileUrl": "https://linkedin.com/in/richard-henson",
+    "firstName": "Richard",
+    "lastName": "Henson",
+    "headline": "ML Engineer at Lumen Data",
+    "location": {
+      "name": "Seattle, WA"
+    },
+    "summary": "Paper memory history office effort remember. Mind southern rather. Hair attorney professional form finish. Medical project for recent never. Inside wait quality total past.",
+    "industry": "Computer Software",
+    "connections": 119,
+    "positions": [
+      {
+        "title": "ML Engineer",
+        "companyName": "Lumen Data",
+        "durationMonths": 72,
+        "description": "See understand door class son computer include conference. Site in prove same easy city. Him although likely current."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "Georgia Tech",
+        "degreeName": "M.S. AI",
+        "graduationYear": 2019
+      }
+    ],
+    "skills": [
+      {
+        "name": "LLMs"
+      },
+      {
+        "name": "Time series"
+      },
+      {
+        "name": "Machine Learning"
+      },
+      {
+        "name": "Python 3"
+      },
+      {
+        "name": "spaCy"
+      }
+    ],
+    "yearsOfExperience": 6.0,
+    "_canonical_id": "person_003"
+  },
+  {
+    "linkedin_id": "li_person_007",
+    "publicProfileUrl": "https://linkedin.com/in/jessica-harrison",
+    "firstName": "Jessica",
+    "lastName": "Harrison",
+    "headline": "Data Scientist at Nimbus Analytics",
+    "location": {
+      "name": "Bangalore, India"
+    },
+    "summary": "Course out second carry attorney significant. Future skin environment able rise study. Tend land machine forward several help usually. Wonder draw him task improve. Seat relate specific history professional star. Manager already maybe opportunity.",
+    "industry": "Computer Software",
+    "connections": 456,
+    "positions": [
+      {
+        "title": "Data Scientist",
+        "companyName": "Nimbus Analytics",
+        "durationMonths": 6,
+        "description": "Wall matter management ball always it. Page ago director purpose team onto."
+      },
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Vertex Data",
+        "durationMonths": 11,
+        "description": "Office several compare million kind."
+      },
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Quantum Labs",
+        "durationMonths": 14,
+        "description": "Young job sport why. Girl four prove tax form really explain."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "BlueOcean Tech",
+        "durationMonths": 11,
+        "description": "Already because education break significant ten stay. Price my including. Million performance material kind appear."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "UC Berkeley",
+        "degreeName": "B.Tech Computer Science",
+        "graduationYear": 2021
+      }
+    ],
+    "skills": [
+      {
+        "name": "LLMs"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "NLP"
+      },
+      {
+        "name": "PyTorch"
+      },
+      {
+        "name": "ML"
+      }
+    ],
+    "yearsOfExperience": 3.8,
+    "_canonical_id": "person_007"
+  },
+  {
+    "linkedin_id": "li_person_008",
+    "publicProfileUrl": "https://linkedin.com/in/shelly-alexander",
+    "firstName": "Shelly",
+    "lastName": "Alexander",
+    "headline": "ML Engineer at Catalyst AI",
+    "location": {
+      "name": "Austin, TX"
+    },
+    "summary": "Least project together let explain. Citizen kid generation onto police interesting economic. Current his low down occur. Yeah far within probably ever. Ten sing wind treat seat strategy total. Parent good PM per question.",
+    "industry": "Computer Software",
+    "connections": 455,
+    "positions": [
+      {
+        "title": "ML Engineer",
+        "companyName": "Catalyst AI",
+        "durationMonths": 62,
+        "description": "Address century that wide avoid sit enter. Realize power system system teacher here first responsibility. Their along attention piece TV young section."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "Carnegie Mellon",
+        "degreeName": "B.Tech IT",
+        "graduationYear": 2020
+      }
+    ],
+    "skills": [
+      {
+        "name": "machine learning"
+      },
+      {
+        "name": "PostgreSQL"
+      },
+      {
+        "name": "PyTorch"
+      },
+      {
+        "name": "FastAPI"
+      },
+      {
+        "name": "Large Language Models"
+      },
+      {
+        "name": "Python 3"
+      }
+    ],
+    "yearsOfExperience": 5.2,
+    "_canonical_id": "person_008"
+  },
+  {
+    "linkedin_id": "li_person_011",
+    "publicProfileUrl": "https://linkedin.com/in/sabrina-austin",
+    "firstName": "Sabrina",
+    "lastName": "Austin",
+    "headline": "Junior ML Engineer at Apex Cloud",
+    "location": {
+      "name": "New York, NY"
+    },
+    "summary": "Determine worker area. Feeling deep case eight foreign. Section compare herself region matter street south.",
+    "industry": "Computer Software",
+    "connections": 363,
+    "positions": [
+      {
+        "title": "Junior ML Engineer",
+        "companyName": "Apex Cloud",
+        "durationMonths": 12,
+        "description": "Participant price really. Congress reflect finally. Go consider century price attorney scientist."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "University at Buffalo",
+        "degreeName": "B.Tech Computer Science",
+        "graduationYear": 2025
+      }
+    ],
+    "skills": [
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "Kubernetes"
+      },
+      {
+        "name": "python3"
+      },
+      {
+        "name": "Spring"
+      },
+      {
+        "name": "docker"
+      }
+    ],
+    "yearsOfExperience": 1.2,
+    "_canonical_id": "person_011"
+  },
+  {
+    "linkedin_id": "li_person_013",
+    "publicProfileUrl": "https://linkedin.com/in/lisa-cox",
+    "firstName": "Lisa",
+    "lastName": "Cox",
+    "headline": "AI Engineer at Cortex Analytics",
+    "location": {
+      "name": "Seattle, WA"
+    },
+    "summary": "Capital heavy class story side speak close join. Hair rest wide particular sell six. Move finally speak light strong. Worker left example high month whom stage. Catch economic political them never bill suffer surface. Base civil last message store.",
+    "industry": "Computer Software",
+    "connections": 443,
+    "positions": [
+      {
+        "title": "AI Engineer",
+        "companyName": "Cortex Analytics",
+        "durationMonths": 43,
+        "description": "Impact full our smile positive at. Newspaper hit edge surface."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "UC Berkeley",
+        "degreeName": "M.S. Computer Science",
+        "graduationYear": 2021
+      }
+    ],
+    "skills": [
+      {
+        "name": "Containerization"
+      },
+      {
+        "name": "Py"
+      },
+      {
+        "name": "Spring Boot"
+      },
+      {
+        "name": "MySQL"
+      }
+    ],
+    "yearsOfExperience": 4.0,
+    "_canonical_id": "person_013"
+  },
+  {
+    "linkedin_id": "li_person_014",
+    "publicProfileUrl": "https://linkedin.com/in/thomas-velasquez",
+    "firstName": "Thomas",
+    "lastName": "Velasquez",
+    "headline": "ML Engineer I at Helix AI",
+    "location": {
+      "name": "Hyderabad, India"
+    },
+    "summary": "Good full poor. Wonder long consider care respond want already. Social though firm. Middle writer myself education send.",
+    "industry": "Computer Software",
+    "connections": 212,
+    "positions": [
+      {
+        "title": "ML Engineer I",
+        "companyName": "Helix AI",
+        "durationMonths": 11,
+        "description": "Increase how hear. Yes heart agreement us stuff practice. Case expert stop receive."
+      },
+      {
+        "title": "ML Engineer",
+        "companyName": "Vertex Data",
+        "durationMonths": 11,
+        "description": "Large accept bad eight strong nature road. Institution simply down business draw police performance."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "Forge AI",
+        "durationMonths": 4,
+        "description": "Student matter movie place. Drop century investment pass drive indicate professor."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "Stanford University",
+        "degreeName": "M.S. AI",
+        "graduationYear": 2022
+      }
+    ],
+    "skills": [
+      {
+        "name": "LLMs"
+      },
+      {
+        "name": "Time Series Analysis"
+      },
+      {
+        "name": "Pytorch"
+      },
+      {
+        "name": "aws"
+      },
+      {
+        "name": "Py"
+      },
+      {
+        "name": "ML"
+      },
+      {
+        "name": "MySQL"
+      }
+    ],
+    "yearsOfExperience": 2.2,
+    "_canonical_id": "person_014"
+  },
+  {
+    "linkedin_id": "li_person_017",
+    "publicProfileUrl": "https://linkedin.com/in/william-grant",
+    "firstName": "William",
+    "lastName": "Grant",
+    "headline": "Principal AI Engineer at DataDyne",
+    "location": {
+      "name": "Mumbai, India"
+    },
+    "summary": "Business quality here woman stand. Fact explain research get. Section degree still even no. Case past only drug prove. Difficult do beyond form line race case.",
+    "industry": "Computer Software",
+    "connections": 307,
+    "positions": [
+      {
+        "title": "Principal AI Engineer",
+        "companyName": "DataDyne",
+        "durationMonths": 70,
+        "description": "Current meeting matter and. Require sound mind chance. Cause use five hotel pattern successful order."
+      },
+      {
+        "title": "Data Scientist",
+        "companyName": "Pinnacle ML",
+        "durationMonths": 63,
+        "description": "Mother remember feel staff happy purpose woman. Film together the picture others enter pretty will. Officer return on color pick people subject challenge."
+      },
+      {
+        "title": "Data Scientist",
+        "companyName": "BlueOcean Tech",
+        "durationMonths": 72,
+        "description": "Occur red course. Finish charge real improve simple turn."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "Stanford University",
+        "degreeName": "B.Tech Computer Science",
+        "graduationYear": 2008
+      }
+    ],
+    "skills": [
+      {
+        "name": "machine learning"
+      },
+      {
+        "name": "Retrieval-Augmented Generation"
+      },
+      {
+        "name": "aws"
+      },
+      {
+        "name": "FastAPI"
+      },
+      {
+        "name": "Large Language Models"
+      },
+      {
+        "name": "Python 3"
+      },
+      {
+        "name": "Langchain"
+      }
+    ],
+    "yearsOfExperience": 17.1,
+    "_canonical_id": "person_017"
+  },
+  {
+    "linkedin_id": "li_person_018",
+    "publicProfileUrl": "https://linkedin.com/in/vanessa-moore",
+    "firstName": "Vanessa",
+    "lastName": "Moore",
+    "headline": "Software Engineer (AI/ML) at Forge AI",
+    "location": {
+      "name": "Delhi, India"
+    },
+    "summary": "Property let civil rather. Real police wait happen determine. Check security paper indeed near likely Mr. Seven quite other skin moment.",
+    "industry": "Computer Software",
+    "connections": 205,
+    "positions": [
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Forge AI",
+        "durationMonths": 24,
+        "description": "Practice sense expert experience arrive shoulder present. Movement rich view tree company. Value already structure small."
+      },
+      {
+        "title": "ML Engineer",
+        "companyName": "Nimbus Analytics",
+        "durationMonths": 28,
+        "description": "Theory across nothing blue work. Lawyer political modern threat care."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "Georgia Tech",
+        "degreeName": "M.S. AI",
+        "graduationYear": 2020
+      }
+    ],
+    "skills": [
+      {
+        "name": "LLMs"
+      },
+      {
+        "name": "Amazon Web Services"
+      },
+      {
+        "name": "Retrieval Augmented Generation"
+      },
+      {
+        "name": "Pytorch"
+      },
+      {
+        "name": "ML"
+      },
+      {
+        "name": "MySQL"
+      },
+      {
+        "name": "Python 3"
+      },
+      {
+        "name": "Langchain"
+      }
+    ],
+    "yearsOfExperience": 4.4,
+    "_canonical_id": "person_018"
+  },
+  {
+    "linkedin_id": "li_person_021",
+    "publicProfileUrl": "https://linkedin.com/in/suzanne-dominguez",
+    "firstName": "Suzanne",
+    "lastName": "Dominguez",
+    "headline": "Senior Data Scientist at Pinnacle ML",
+    "location": {
+      "name": "New York, NY"
+    },
+    "summary": "Collection some college result major true my. Model stuff avoid stand. Share include successful. Religious across media health. Point value tree process administration mother in admit.",
+    "industry": "Computer Software",
+    "connections": 375,
+    "positions": [
+      {
+        "title": "Senior Data Scientist",
+        "companyName": "Pinnacle ML",
+        "durationMonths": 116,
+        "description": "Trip need simply herself move grow. Growth third letter sort reveal."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "University of Washington",
+        "degreeName": "B.Tech Computer Science",
+        "graduationYear": 2016
+      }
+    ],
+    "skills": [
+      {
+        "name": "machine learning"
+      },
+      {
+        "name": "Retrieval-Augmented Generation"
+      },
+      {
+        "name": "langchain"
+      },
+      {
+        "name": "aws"
+      },
+      {
+        "name": "K8s"
+      },
+      {
+        "name": "Docker"
+      },
+      {
+        "name": "Python 3"
+      },
+      {
+        "name": "fastapi"
+      }
+    ],
+    "yearsOfExperience": 9.7,
+    "_canonical_id": "person_021"
+  },
+  {
+    "linkedin_id": "li_person_022",
+    "publicProfileUrl": "https://linkedin.com/in/kimberly-mitchell",
+    "firstName": "Kimberly",
+    "lastName": "Mitchell",
+    "headline": "Senior AI Engineer at Forge AI",
+    "location": {
+      "name": "Seattle, WA"
+    },
+    "summary": "Guess before wall know seven bill. Cost large never impact. Bed never others. Activity including single right nice yeah. Occur college herself catch feeling. Certainly cold every feel site guess want.",
+    "industry": "Computer Software",
+    "connections": 364,
+    "positions": [
+      {
+        "title": "Senior AI Engineer",
+        "companyName": "Forge AI",
+        "durationMonths": 29,
+        "description": "South travel blood benefit chance court. Education great some bad where learn during. Feel stock ball yard practice."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "Helix AI",
+        "durationMonths": 33,
+        "description": "If help live PM."
+      },
+      {
+        "title": "ML Engineer",
+        "companyName": "Cortex Analytics",
+        "durationMonths": 23,
+        "description": "Matter its six not. Thus try discover top."
+      },
+      {
+        "title": "Data Scientist",
+        "companyName": "Polaris Tech",
+        "durationMonths": 30,
+        "description": "Even under range exactly myself probably conference. Administration debate certain star start up. Class drive strong home to."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "UC Berkeley",
+        "degreeName": "B.Tech IT",
+        "graduationYear": 2015
+      }
+    ],
+    "skills": [
+      {
+        "name": "GPT"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "K8s"
+      },
+      {
+        "name": "Containerization"
+      },
+      {
+        "name": "PyTorch"
+      },
+      {
+        "name": "ML"
+      },
+      {
+        "name": "MySQL"
+      },
+      {
+        "name": "Natural Language Processing"
+      }
+    ],
+    "yearsOfExperience": 9.6,
+    "_canonical_id": "person_022"
+  },
+  {
+    "linkedin_id": "li_person_023",
+    "publicProfileUrl": "https://linkedin.com/in/kathleen-jensen",
+    "firstName": "Kathleen",
+    "lastName": "Jensen",
+    "headline": "AI Engineer at BlueOcean Tech",
+    "location": {
+      "name": "Mumbai, India"
+    },
+    "summary": "Look husband media turn reality myself so growth. Order trial body eat professor coach partner. Worker quality hundred sell whole involve action. Member million oil offer knowledge. Leg quickly real character young lot.",
+    "industry": "Computer Software",
+    "connections": 137,
+    "positions": [
+      {
+        "title": "AI Engineer",
+        "companyName": "BlueOcean Tech",
+        "durationMonths": 37,
+        "description": "Career according how success. Sound forget friend spring teacher wind. Feel owner receive look."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "BITS Pilani",
+        "degreeName": "B.Tech Computer Science",
+        "graduationYear": 2021
+      }
+    ],
+    "skills": [
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "python3"
+      },
+      {
+        "name": "K8s"
+      },
+      {
+        "name": "docker"
+      },
+      {
+        "name": "Spring Boot"
+      }
+    ],
+    "yearsOfExperience": 3.1,
+    "_canonical_id": "person_023"
+  },
+  {
+    "linkedin_id": "li_person_024",
+    "publicProfileUrl": "https://linkedin.com/in/thomas-miller",
+    "firstName": "Thomas",
+    "lastName": "Miller",
+    "headline": "Software Engineer (AI/ML) at Cortex Analytics",
+    "location": {
+      "name": "Toronto, Canada"
+    },
+    "summary": "Range indeed style major bar air. Factor ever Mrs collection leader. Near both box simple statement happen state. National wrong bill stop seem fear.",
+    "industry": "Computer Software",
+    "connections": 472,
+    "positions": [
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Cortex Analytics",
+        "durationMonths": 16,
+        "description": "Find lay deal lot live just. Five feel special boy support possible quality."
+      },
+      {
+        "title": "ML Engineer",
+        "companyName": "BlueOcean Tech",
+        "durationMonths": 17,
+        "description": "Might necessary former interview left. Picture control price how scene third."
+      },
+      {
+        "title": "ML Engineer",
+        "companyName": "Lumen Data",
+        "durationMonths": 22,
+        "description": "Involve above Democrat everything region somebody officer son. Cost for leader energy television month police. Home hotel box goal leader common purpose song."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "IIT Madras",
+        "degreeName": "M.Tech CSE",
+        "graduationYear": 2022
+      }
+    ],
+    "skills": [
+      {
+        "name": "machine learning"
+      },
+      {
+        "name": "RAG"
+      },
+      {
+        "name": "Microsoft Azure"
+      },
+      {
+        "name": "Time series"
+      },
+      {
+        "name": "PostgreSQL"
+      },
+      {
+        "name": "Natural Language Processing"
+      },
+      {
+        "name": "Python 3"
+      },
+      {
+        "name": "Langchain"
+      },
+      {
+        "name": "LLM"
+      }
+    ],
+    "yearsOfExperience": 4.7,
+    "_canonical_id": "person_024"
+  },
+  {
+    "linkedin_id": "li_person_029",
+    "publicProfileUrl": "https://linkedin.com/in/kelly-mccoy",
+    "firstName": "Kelly",
+    "lastName": "Mccoy",
+    "headline": "Software Engineer (AI/ML) at Catalyst AI",
+    "location": {
+      "name": "Remote"
+    },
+    "summary": "Her safe family concern. We we hot. Allow own TV whose determine not view. Former back get floor. Land enter economic attack either blue. Answer just information.",
+    "industry": "Computer Software",
+    "connections": 130,
+    "positions": [
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Catalyst AI",
+        "durationMonths": 8,
+        "description": "Writer site grow. Sit general not focus establish ago others. Time sing around."
+      },
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "DataDyne",
+        "durationMonths": 14,
+        "description": "Group once do city easy drop move. Shake way offer work. Great stuff suddenly compare or south."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "Forge AI",
+        "durationMonths": 15,
+        "description": "Agreement red way nor none could write think. My compare also argue own after long. Truth cut candidate response try such."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "University at Buffalo",
+        "degreeName": "M.S. AI",
+        "graduationYear": 2021
+      }
+    ],
+    "skills": [
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "Spring"
+      },
+      {
+        "name": "Py"
+      },
+      {
+        "name": "Docker"
+      }
+    ],
+    "yearsOfExperience": 3.1,
+    "_canonical_id": "person_029"
+  },
+  {
+    "linkedin_id": "li_person_034",
+    "publicProfileUrl": "https://linkedin.com/in/mr.-richard-decker-dvm",
+    "firstName": "Mr.",
+    "lastName": "Richard Decker DVM",
+    "headline": "Senior ML Engineer at NeuroNet Systems",
+    "location": {
+      "name": "Delhi, India"
+    },
+    "summary": "Thank avoid man drive wife anyone development. Idea dog learn soon large task. Firm wonder seat adult idea along near. White point three none pressure lay future stay. Such forward should outside respond.",
+    "industry": "Computer Software",
+    "connections": 213,
+    "positions": [
+      {
+        "title": "Senior ML Engineer",
+        "companyName": "NeuroNet Systems",
+        "durationMonths": 26,
+        "description": "Far always many debate value former. Actually become book. Protect chance bed memory rich big eight."
+      },
+      {
+        "title": "Data Scientist",
+        "companyName": "Vertex Data",
+        "durationMonths": 34,
+        "description": "Write fast less between company always fact. International break surface three act catch."
+      },
+      {
+        "title": "ML Engineer",
+        "companyName": "Helix AI",
+        "durationMonths": 27,
+        "description": "Group just perform there behavior spring. Box hundred lead structure."
+      },
+      {
+        "title": "ML Engineer",
+        "companyName": "Vertex Data",
+        "durationMonths": 40,
+        "description": "Power someone both receive around wall. Billion treat lot notice. Consider here grow agreement range stuff."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "University at Buffalo",
+        "degreeName": "M.S. AI",
+        "graduationYear": 2015
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python"
+      },
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "K8s"
+      },
+      {
+        "name": "Spring"
+      },
+      {
+        "name": "Docker"
+      }
+    ],
+    "yearsOfExperience": 10.6,
+    "_canonical_id": "person_034"
+  },
+  {
+    "linkedin_id": "li_person_036",
+    "publicProfileUrl": "https://linkedin.com/in/tammy-hughes",
+    "firstName": "Tammy",
+    "lastName": "Hughes",
+    "headline": "Senior AI Engineer at BlueOcean Tech",
+    "location": {
+      "name": "Austin, TX"
+    },
+    "summary": "Boy generation drive. Truth during always those high someone box either. Agency might side method meet. Fast prepare fly. Way cold what Mrs. Phone decision picture.",
+    "industry": "Computer Software",
+    "connections": 198,
+    "positions": [
+      {
+        "title": "Senior AI Engineer",
+        "companyName": "BlueOcean Tech",
+        "durationMonths": 47,
+        "description": "Approach season data than team kitchen difficult. Sense national owner simply who family. Work avoid while same."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "Quantum Labs",
+        "durationMonths": 39,
+        "description": "American evidence enough claim suffer accept. Report choice child follow anything usually past."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "IIT Delhi",
+        "degreeName": "M.Tech CSE",
+        "graduationYear": 2017
+      }
+    ],
+    "skills": [
+      {
+        "name": "Kubernetes"
+      },
+      {
+        "name": "Retrieval Augmented Generation"
+      },
+      {
+        "name": "Pytorch"
+      },
+      {
+        "name": "Containerization"
+      },
+      {
+        "name": "Machine Learning"
+      },
+      {
+        "name": "Time-series forecasting"
+      },
+      {
+        "name": "FastAPI"
+      },
+      {
+        "name": "MySQL"
+      },
+      {
+        "name": "Azure"
+      },
+      {
+        "name": "Python 3"
+      },
+      {
+        "name": "Langchain"
+      }
+    ],
+    "yearsOfExperience": 7.2,
+    "_canonical_id": "person_036"
+  },
+  {
+    "linkedin_id": "li_person_037",
+    "publicProfileUrl": "https://linkedin.com/in/michael-houston",
+    "firstName": "Michael",
+    "lastName": "Houston",
+    "headline": "Senior ML Engineer at Quantum Labs",
+    "location": {
+      "name": "London, UK"
+    },
+    "summary": "Economy culture oil week. Campaign pretty beyond people too fish. Pattern figure once not hair first. Collection finish size Republican political everybody. Care run there leg grow figure.",
+    "industry": "Computer Software",
+    "connections": 493,
+    "positions": [
+      {
+        "title": "Senior ML Engineer",
+        "companyName": "Quantum Labs",
+        "durationMonths": 18,
+        "description": "Stock these scientist itself stage authority rather. Learn forward beautiful."
+      },
+      {
+        "title": "Data Scientist",
+        "companyName": "Nimbus Analytics",
+        "durationMonths": 31,
+        "description": "Some newspaper offer direction."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "DataDyne",
+        "durationMonths": 28,
+        "description": "Hold picture item admit pull movement. As second animal summer group me face rate."
+      },
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Acme AI",
+        "durationMonths": 17,
+        "description": "Example unit high state. Listen mouth carry. Someone support far plant fear thought. Whatever action themselves center among of."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "Carnegie Mellon",
+        "degreeName": "M.S. AI",
+        "graduationYear": 2019
+      }
+    ],
+    "skills": [
+      {
+        "name": "machine learning"
+      },
+      {
+        "name": "Retrieval-Augmented Generation"
+      },
+      {
+        "name": "langchain"
+      },
+      {
+        "name": "aws"
+      },
+      {
+        "name": "K8s"
+      },
+      {
+        "name": "Py"
+      },
+      {
+        "name": "PostgreSQL"
+      },
+      {
+        "name": "Time-series forecasting"
+      },
+      {
+        "name": "PyTorch"
+      },
+      {
+        "name": "docker"
+      },
+      {
+        "name": "fastapi"
+      }
+    ],
+    "yearsOfExperience": 7.9,
+    "_canonical_id": "person_037"
+  },
+  {
+    "linkedin_id": "li_person_040",
+    "publicProfileUrl": "https://linkedin.com/in/ralph-kent",
+    "firstName": "Ralph",
+    "lastName": "Kent",
+    "headline": "Junior ML Engineer at Cortex Analytics",
+    "location": {
+      "name": "Mumbai, India"
+    },
+    "summary": "Participant right us husband. Expert white arm similar compare manager action. Experience almost outside middle discuss college already. Wish beautiful every. Good house only military say attention.",
+    "industry": "Computer Software",
+    "connections": 251,
+    "positions": [
+      {
+        "title": "Junior ML Engineer",
+        "companyName": "Cortex Analytics",
+        "durationMonths": 10,
+        "description": "Our myself election accept season. Official brother according."
+      },
+      {
+        "title": "Data Scientist",
+        "companyName": "NeuroNet Systems",
+        "durationMonths": 6,
+        "description": "Impact blood international one end movie. Hand every quite sense including six lot."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "IIT Bombay",
+        "degreeName": "M.Tech CSE",
+        "graduationYear": 2025
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python"
+      },
+      {
+        "name": "AWS"
+      },
+      {
+        "name": "Retrieval Augmented Generation"
+      },
+      {
+        "name": "NLP"
+      },
+      {
+        "name": "Machine Learning"
+      },
+      {
+        "name": "LangChain"
+      },
+      {
+        "name": "FastAPI"
+      },
+      {
+        "name": "Large Language Models"
+      }
+    ],
+    "yearsOfExperience": 1.4,
+    "_canonical_id": "person_040"
+  },
+  {
+    "linkedin_id": "li_person_041",
+    "publicProfileUrl": "https://linkedin.com/in/duane-gallegos",
+    "firstName": "Duane",
+    "lastName": "Gallegos",
+    "headline": "ML Engineer I at Innovatech",
+    "location": {
+      "name": "San Francisco, CA"
+    },
+    "summary": "According tax when summer he firm together thing. Than make worker trouble exactly develop office. Moment institution vote. Girl team simply lead build million firm.",
+    "industry": "Computer Software",
+    "connections": 75,
+    "positions": [
+      {
+        "title": "ML Engineer I",
+        "companyName": "Innovatech",
+        "durationMonths": 18,
+        "description": "Girl spring difficult white lawyer identify. End imagine blood. Me future bring message. Then spend offer reason whom."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "Polaris Tech",
+        "durationMonths": 13,
+        "description": "Show serious which learn leave only agree. Election him small detail. Son include good movie red."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "IIT Bombay",
+        "degreeName": "M.Tech CSE",
+        "graduationYear": 2024
+      }
+    ],
+    "skills": [
+      {
+        "name": "Torch"
+      },
+      {
+        "name": "Py"
+      },
+      {
+        "name": "Machine Learning"
+      }
+    ],
+    "yearsOfExperience": 2.6,
+    "_canonical_id": "person_041"
+  },
+  {
+    "linkedin_id": "li_person_043",
+    "publicProfileUrl": "https://linkedin.com/in/joyce-curry",
+    "firstName": "Joyce",
+    "lastName": "Curry",
+    "headline": "Software Engineer (AI/ML) at Forge AI",
+    "location": {
+      "name": "Hyderabad, India"
+    },
+    "summary": "Such weight argue simply. Myself consider time economic. Stock business should eat side kitchen. Leave side miss word list.",
+    "industry": "Computer Software",
+    "connections": 118,
+    "positions": [
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Forge AI",
+        "durationMonths": 19,
+        "description": "Model police finally girl music source. Film include choose action model serve. Gas light across two."
+      },
+      {
+        "title": "ML Engineer",
+        "companyName": "Vertex Data",
+        "durationMonths": 18,
+        "description": "Across involve fall discuss account. Country think join economic resource position. Determine bad personal might son party."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "Apex Cloud",
+        "durationMonths": 9,
+        "description": "Possible mother especially could attention. Face PM pay evening."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "UC Berkeley",
+        "degreeName": "B.Tech Computer Science",
+        "graduationYear": 2021
+      }
+    ],
+    "skills": [
+      {
+        "name": "machine learning"
+      },
+      {
+        "name": "LLMs"
+      },
+      {
+        "name": "python3"
+      },
+      {
+        "name": "Time series"
+      },
+      {
+        "name": "MySQL"
+      },
+      {
+        "name": "Azure"
+      }
+    ],
+    "yearsOfExperience": 3.9,
+    "_canonical_id": "person_043"
+  },
+  {
+    "linkedin_id": "li_person_044",
+    "publicProfileUrl": "https://linkedin.com/in/emily-morris",
+    "firstName": "Emily",
+    "lastName": "Morris",
+    "headline": "AI Engineer at Cortex Analytics",
+    "location": {
+      "name": "Remote"
+    },
+    "summary": "Civil most last standard must law simply. Here control affect task simply draw return. Standard couple raise she child executive important. Book model at strong candidate them. Magazine better number student. Moment red eight hand paper audience us.",
+    "industry": "Computer Software",
+    "connections": 237,
+    "positions": [
+      {
+        "title": "AI Engineer",
+        "companyName": "Cortex Analytics",
+        "durationMonths": 56,
+        "description": "Seat near business. Police cup thought tell design both plan. Address some once how during why. Situation little other he become citizen before peace."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "NIT Trichy",
+        "degreeName": "M.Tech CSE",
+        "graduationYear": 2020
+      }
+    ],
+    "skills": [
+      {
+        "name": "GPT"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "aws"
+      },
+      {
+        "name": "ML"
+      },
+      {
+        "name": "MySQL"
+      }
+    ],
+    "yearsOfExperience": 5.0,
+    "_canonical_id": "person_044"
+  },
+  {
+    "linkedin_id": "li_person_048",
+    "publicProfileUrl": "https://linkedin.com/in/ryan-harrison",
+    "firstName": "Ryan",
+    "lastName": "Harrison",
+    "headline": "Software Engineer (AI/ML) at Helix AI",
+    "location": {
+      "name": "London, UK"
+    },
+    "summary": "Plant be religious risk window partner civil. Herself should treatment not process change than. Information finally shoulder. Eye Congress together whether about she activity.",
+    "industry": "Computer Software",
+    "connections": 115,
+    "positions": [
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Helix AI",
+        "durationMonths": 17,
+        "description": "System man case cover. Impact why understand. Development provide dark daughter computer western."
+      },
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "DataDyne",
+        "durationMonths": 7,
+        "description": "Majority foot leader east if among save herself. Hour voice occur movie political region. Minute later still."
+      },
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Vertex Data",
+        "durationMonths": 15,
+        "description": "Million how same newspaper might."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "UC Berkeley",
+        "degreeName": "M.S. AI",
+        "graduationYear": 2023
+      }
+    ],
+    "skills": [
+      {
+        "name": "aws"
+      },
+      {
+        "name": "Py"
+      },
+      {
+        "name": "Time series"
+      },
+      {
+        "name": "ML"
+      },
+      {
+        "name": "Large Language Models"
+      }
+    ],
+    "yearsOfExperience": 3.3,
+    "_canonical_id": "person_048"
+  },
+  {
+    "linkedin_id": "li_person_049",
+    "publicProfileUrl": "https://linkedin.com/in/mr.-robert-franklin-md",
+    "firstName": "Mr.",
+    "lastName": "Robert Franklin MD",
+    "headline": "Software Engineer (AI/ML) at Polaris Tech",
+    "location": {
+      "name": "Buffalo, NY"
+    },
+    "summary": "Yourself increase free night point action cut example. Film media food accept. How notice whether story create street. Trouble something population loss physical throughout Mr. Leg sport until argue minute north.",
+    "industry": "Computer Software",
+    "connections": 335,
+    "positions": [
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Polaris Tech",
+        "durationMonths": 13,
+        "description": "Process law kind over according think everything pick. Any challenge president already take."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "DataDyne",
+        "durationMonths": 20,
+        "description": "Fear turn any indicate condition public particularly reality. Occur no whom see growth along shoulder follow. Star serve successful assume likely business."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "Georgia Tech",
+        "degreeName": "B.Tech IT",
+        "graduationYear": 2023
+      }
+    ],
+    "skills": [
+      {
+        "name": "GPT"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "aws"
+      },
+      {
+        "name": "Time series"
+      },
+      {
+        "name": "Machine Learning"
+      },
+      {
+        "name": "PostgreSQL"
+      },
+      {
+        "name": "PyTorch"
+      },
+      {
+        "name": "spaCy"
+      }
+    ],
+    "yearsOfExperience": 3.2,
+    "_canonical_id": "person_049"
+  },
+  {
+    "linkedin_id": "li_person_050",
+    "publicProfileUrl": "https://linkedin.com/in/kristen-smith",
+    "firstName": "Kristen",
+    "lastName": "Smith",
+    "headline": "Associate Data Scientist at Helix AI",
+    "location": {
+      "name": "London, UK"
+    },
+    "summary": "Break financial analysis summer the four threat. Minute probably fine officer. Police decide customer expert mother. Evening church boy when. Method deal go five center region exist. Commercial find throughout music anything.",
+    "industry": "Computer Software",
+    "connections": 306,
+    "positions": [
+      {
+        "title": "Associate Data Scientist",
+        "companyName": "Helix AI",
+        "durationMonths": 28,
+        "description": "Son thousand government wide exactly all. Phone success number hope organization ten. Relate fire all including market."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "University at Buffalo",
+        "degreeName": "B.Tech Computer Science",
+        "graduationYear": 2024
+      }
+    ],
+    "skills": [
+      {
+        "name": "python3"
+      },
+      {
+        "name": "Spring Boot"
+      },
+      {
+        "name": "docker"
+      },
+      {
+        "name": "PostgreSQL"
+      }
+    ],
+    "yearsOfExperience": 2.4,
+    "_canonical_id": "person_050"
+  },
+  {
+    "linkedin_id": "li_person_051",
+    "publicProfileUrl": "https://linkedin.com/in/steven-williams",
+    "firstName": "Steven",
+    "lastName": "Williams",
+    "headline": "ML Engineer at Apex Cloud",
+    "location": {
+      "name": "Toronto, Canada"
+    },
+    "summary": "Worry identify camera family hard nature apply reflect. Technology tend dog reduce. Personal Republican image itself deep community. Could his under style.",
+    "industry": "Computer Software",
+    "connections": 120,
+    "positions": [
+      {
+        "title": "ML Engineer",
+        "companyName": "Apex Cloud",
+        "durationMonths": 14,
+        "description": "Beat hot relate. Picture real knowledge green forward cup serve speak. Wind sense letter capital."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "Vertex Data",
+        "durationMonths": 6,
+        "description": "Lay range report let. Water century time election guy. Record professor small think."
+      },
+      {
+        "title": "Data Scientist",
+        "companyName": "Helix AI",
+        "durationMonths": 11,
+        "description": "Air little goal leave color should page. Meet if research blood. Power society mouth husband including per nature."
+      },
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "BlueOcean Tech",
+        "durationMonths": 19,
+        "description": "At decade really issue woman note. Name door production back us off. Boy other foot best knowledge final image."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "IIT Madras",
+        "degreeName": "M.S. Computer Science",
+        "graduationYear": 2022
+      }
+    ],
+    "skills": [
+      {
+        "name": "Retrieval-Augmented Generation"
+      },
+      {
+        "name": "Amazon Web Services"
+      },
+      {
+        "name": "Time Series Analysis"
+      },
+      {
+        "name": "python3"
+      },
+      {
+        "name": "NLP"
+      },
+      {
+        "name": "ML"
+      },
+      {
+        "name": "MySQL"
+      },
+      {
+        "name": "Torch"
+      },
+      {
+        "name": "Langchain"
+      }
+    ],
+    "yearsOfExperience": 4.2,
+    "_canonical_id": "person_051"
+  },
+  {
+    "linkedin_id": "li_person_053",
+    "publicProfileUrl": "https://linkedin.com/in/thomas-garrison",
+    "firstName": "Thomas",
+    "lastName": "Garrison",
+    "headline": "Data Scientist at Pinnacle ML",
+    "location": {
+      "name": "Seattle, WA"
+    },
+    "summary": "Half table future subject. Possible computer always his course. To piece grow be plan same. Along agent you draw. Society poor matter who. Whom administration fund front return if deep. Learn question them chance often under already.",
+    "industry": "Computer Software",
+    "connections": 217,
+    "positions": [
+      {
+        "title": "Data Scientist",
+        "companyName": "Pinnacle ML",
+        "durationMonths": 6,
+        "description": "Environment better pressure hospital significant. Same open crime front real. Finish action across attack."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "Acme AI",
+        "durationMonths": 13,
+        "description": "Moment rate goal rise. Cover agency begin voice prevent. Wear point remain build task."
+      },
+      {
+        "title": "ML Engineer",
+        "companyName": "Nimbus Analytics",
+        "durationMonths": 11,
+        "description": "Prevent tonight not whose to receive. Far produce away law yet."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "Pinnacle ML",
+        "durationMonths": 12,
+        "description": "Either sit everyone artist home you. Western enough key man up. Hotel population board music issue pass blood kid."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "IIT Delhi",
+        "degreeName": "M.S. Data Science",
+        "graduationYear": 2022
+      }
+    ],
+    "skills": [
+      {
+        "name": "python3"
+      },
+      {
+        "name": "spaCy"
+      },
+      {
+        "name": "ML"
+      },
+      {
+        "name": "Amazon Web Services"
+      }
+    ],
+    "yearsOfExperience": 3.5,
+    "_canonical_id": "person_053"
+  },
+  {
+    "linkedin_id": "li_person_056",
+    "publicProfileUrl": "https://linkedin.com/in/robert-horton",
+    "firstName": "Robert",
+    "lastName": "Horton",
+    "headline": "AI Engineer at Apex Cloud",
+    "location": {
+      "name": "Hyderabad, India"
+    },
+    "summary": "As generation main. Stop like mother stay tonight later happy. Throughout leader bag today eye. Body every recent many.",
+    "industry": "Computer Software",
+    "connections": 219,
+    "positions": [
+      {
+        "title": "AI Engineer",
+        "companyName": "Apex Cloud",
+        "durationMonths": 15,
+        "description": "Manager bar send really image design grow. Positive before look fight reflect."
+      },
+      {
+        "title": "AI Engineer",
+        "companyName": "Stellar Software",
+        "durationMonths": 28,
+        "description": "Agency lawyer sign them if smile have less. Team audience throw. Most fast send recently partner offer."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "MIT",
+        "degreeName": "M.Tech CSE",
+        "graduationYear": 2021
+      }
+    ],
+    "skills": [
+      {
+        "name": "LLMs"
+      },
+      {
+        "name": "Amazon Web Services"
+      },
+      {
+        "name": "Py"
+      },
+      {
+        "name": "Machine Learning"
+      },
+      {
+        "name": "PostgreSQL"
+      },
+      {
+        "name": "Torch"
+      }
+    ],
+    "yearsOfExperience": 3.6,
+    "_canonical_id": "person_056"
+  },
+  {
+    "linkedin_id": "li_person_058",
+    "publicProfileUrl": "https://linkedin.com/in/tammy-morgan",
+    "firstName": "Tammy",
+    "lastName": "Morgan",
+    "headline": "AI Engineer at Forge AI",
+    "location": {
+      "name": "Mumbai, India"
+    },
+    "summary": "Mention offer suddenly clear around floor. Group apply guess player. Face morning view. Create physical share out cold follow first. Even recently guy move goal.",
+    "industry": "Computer Software",
+    "connections": 419,
+    "positions": [
+      {
+        "title": "AI Engineer",
+        "companyName": "Forge AI",
+        "durationMonths": 15,
+        "description": "Too cause nearly final husband subject land. For part crime money."
+      },
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Apex Cloud",
+        "durationMonths": 7,
+        "description": "Against Mrs knowledge public beautiful. Hour make owner memory argue project huge."
+      },
+      {
+        "title": "ML Engineer",
+        "companyName": "Apex Cloud",
+        "durationMonths": 15,
+        "description": "History activity general final knowledge night. Road know yeah sound eye. Rock increase structure our century field."
+      },
+      {
+        "title": "Software Engineer (AI/ML)",
+        "companyName": "Cortex Analytics",
+        "durationMonths": 13,
+        "description": "At whether series because important trial. Company left nothing trip current strategy. Network amount step strong fight."
+      }
+    ],
+    "educations": [
+      {
+        "schoolName": "IIT Bombay",
+        "degreeName": "M.Tech CSE",
+        "graduationYear": 2022
+      }
+    ],
+    "skills": [
+      {
+        "name": "Retrieval-Augmented Generation"
+      },
+      {
+        "name": "langchain"
+      },
+      {
+        "name": "PostgreSQL"
+      },
+      {
+        "name": "ML"
+      },
+      {
+        "name": "Azure"
+      },
+      {
+        "name": "Python 3"
+      },
+      {
+        "name": "LLM"
+      }
+    ],
+    "yearsOfExperience": 4.2,
+    "_canonical_id": "person_058"
+  }
+]

@@ -10,3 +10,4 @@ events.jsonl
 .DS_Store
 *.egg-info/
 .talentscout/
+test_results/

@@ -1,0 +1,1340 @@
+[
+  {
+    "naukri_id": "nk_person_000",
+    "candidateName": "Allison Hill",
+    "emailId": "jason41@example.net",
+    "mobile": "+1-228-732-7648x3503",
+    "currentLocation": "Toronto, Canada",
+    "totalExp": "6.2 years",
+    "currentDesignation": "Staff ML Engineer",
+    "aboutSelf": "Today human despite young meeting before. Technology check civil. Others his other life edge network. Quite boy those. Born itself law west then enjoy. Seven medical blood personal success medical current.",
+    "keySkills": "LLMs, RAG, python3, aws, K8s, Containerization, Machine Learning, LangChain, MySQL, FastAPI",
+    "workEx": [
+      {
+        "designation": "Staff ML Engineer",
+        "organization": "Quantum Labs",
+        "tenure": "22 months",
+        "responsibilities": "Say quality throughout beautiful. All behavior discussion own night respond."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "NeuroNet Systems",
+        "tenure": "23 months",
+        "responsibilities": "Determine operation speak according south recently. Everyone democratic shake bill here grow. Page southern role movie win her."
+      },
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "NeuroNet Systems",
+        "tenure": "24 months",
+        "responsibilities": "Stop peace technology officer relate. Product significant world. Term herself law street class."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. AI",
+        "university": "University at Buffalo",
+        "passingYear": "2018"
+      }
+    ],
+    "_canonical_id": "person_000"
+  },
+  {
+    "naukri_id": "nk_person_001",
+    "candidateName": "Christopher Ashley",
+    "emailId": "uowens@example.org",
+    "mobile": "+1-610-965-1333x87262",
+    "currentLocation": "Mumbai, India",
+    "totalExp": "3.1 years",
+    "currentDesignation": "Software Engineer (AI/ML)",
+    "aboutSelf": "Image loss ten total. Her world enter six. Institution whatever yet new responsibility. Couple design around save. Security arm once me.",
+    "keySkills": "Python, Time Series Analysis, Pytorch, PostgreSQL, ML, spaCy, fastapi",
+    "workEx": [
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Apex Cloud",
+        "tenure": "8 months",
+        "responsibilities": "Out major born. These story film around there water. Rule staff within mouth."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "Cortex Analytics",
+        "tenure": "13 months",
+        "responsibilities": "Process water close month. Institution deep much role cut find yet practice."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "Meridian Tech",
+        "tenure": "16 months",
+        "responsibilities": "Later easy ask again network open according. Arrive attack all form method everything magazine much. Office drug list imagine behind probably great."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.Tech CSE",
+        "university": "IIT Madras",
+        "passingYear": "2021"
+      }
+    ],
+    "_canonical_id": "person_001"
+  },
+  {
+    "naukri_id": "nk_person_002",
+    "candidateName": "Brooke Yu",
+    "emailId": "williamanderson@example.com",
+    "mobile": "235-642-7849",
+    "currentLocation": "Remote",
+    "totalExp": "7.0 years",
+    "currentDesignation": "Staff ML Engineer",
+    "aboutSelf": "Measure economy traditional anything plant. Analysis four capital woman claim. Relationship night born war real chance along. Old challenge camera final together someone. Together decide economic.",
+    "keySkills": "machine learning, LLMs, kubernetes, python3, docker",
+    "workEx": [
+      {
+        "designation": "Staff ML Engineer",
+        "organization": "Quantum Labs",
+        "tenure": "40 months",
+        "responsibilities": "Attention attack technology identify. East organization people information on mission various."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Catalyst AI",
+        "tenure": "41 months",
+        "responsibilities": "Draw how public feel first sell. Act perform none beyond."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. Data Science",
+        "university": "UC Berkeley",
+        "passingYear": "2018"
+      }
+    ],
+    "_canonical_id": "person_002"
+  },
+  {
+    "naukri_id": "nk_person_003",
+    "candidateName": "Richard Henson",
+    "emailId": "ybailey@example.org",
+    "mobile": "803.765.4145",
+    "currentLocation": "Seattle, WA",
+    "totalExp": "6.0 years",
+    "currentDesignation": "ML Engineer",
+    "aboutSelf": "Paper memory history office effort remember. Mind southern rather. Hair attorney professional form finish. Medical project for recent never. Inside wait quality total past.",
+    "keySkills": "LLMs, Time series, Machine Learning, Python 3, spaCy",
+    "workEx": [
+      {
+        "designation": "ML Engineer",
+        "organization": "Lumen Data",
+        "tenure": "72 months",
+        "responsibilities": "See understand door class son computer include conference. Site in prove same easy city. Him although likely current."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. AI",
+        "university": "Georgia Tech",
+        "passingYear": "2019"
+      }
+    ],
+    "_canonical_id": "person_003"
+  },
+  {
+    "naukri_id": "nk_person_004",
+    "candidateName": "Joshua Smith",
+    "emailId": "gibsonolivia@example.net",
+    "mobile": "567.463.2016",
+    "currentLocation": "Buffalo, NY",
+    "totalExp": "1.9 years",
+    "currentDesignation": "Associate Data Scientist",
+    "aboutSelf": "Season listen else easy. She miss phone ever back. Doctor from throw ball character. Relationship ask imagine my. Artist strategy hope show watch affect. Herself accept goal send table well industry.",
+    "keySkills": "machine learning, LLMs, Retrieval-Augmented Generation, langchain, aws, Py, PyTorch, MySQL",
+    "workEx": [
+      {
+        "designation": "Associate Data Scientist",
+        "organization": "Pinnacle ML",
+        "tenure": "6 months",
+        "responsibilities": "Involve oil pressure let kind. Memory soldier where save probably."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "DataDyne",
+        "tenure": "16 months",
+        "responsibilities": "Professional people behavior weight dog financial southern. Agency each little sure."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.Tech CSE",
+        "university": "MIT",
+        "passingYear": "2025"
+      }
+    ],
+    "_canonical_id": "person_004"
+  },
+  {
+    "naukri_id": "nk_person_005",
+    "candidateName": "Kimberly Morrison",
+    "emailId": "debraharrington@example.net",
+    "mobile": "9033309232",
+    "currentLocation": "Hyderabad, India",
+    "totalExp": "14.3 years",
+    "currentDesignation": "Staff ML Engineer",
+    "aboutSelf": "Option store drug recent. Sure outside building worker site. Into have media game support state black. Player stock religious itself safe whole. Pattern try simple let stay.",
+    "keySkills": "machine learning, kubernetes, Retrieval Augmented Generation, spaCy, docker, Python 3, Torch, Langchain",
+    "workEx": [
+      {
+        "designation": "Staff ML Engineer",
+        "organization": "Helix AI",
+        "tenure": "80 months",
+        "responsibilities": "Detail job ahead from quickly identify close. Try wonder move trade option production base."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "Catalyst AI",
+        "tenure": "85 months",
+        "responsibilities": "Term consider employee force. Force seven here sell story edge bank. See appear weight."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. Computer Science",
+        "university": "IIT Bombay",
+        "passingYear": "2012"
+      }
+    ],
+    "_canonical_id": "person_005"
+  },
+  {
+    "naukri_id": "nk_person_006",
+    "candidateName": "Erica Sanchez",
+    "emailId": "ewilson@example.com",
+    "mobile": "519.802.2941x3186",
+    "currentLocation": "Buffalo, NY",
+    "totalExp": "6.4 years",
+    "currentDesignation": "Staff ML Engineer",
+    "aboutSelf": "Impact ready like. Discuss religious reflect. Reach under skin person. Interesting name positive training step. Arrive society organization station.",
+    "keySkills": "Python, Amazon Web Services, K8s, Docker, PyTorch, ML, spaCy",
+    "workEx": [
+      {
+        "designation": "Staff ML Engineer",
+        "organization": "Innovatech",
+        "tenure": "20 months",
+        "responsibilities": "Think during let particular her. Management foot maintain."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "Innovatech",
+        "tenure": "22 months",
+        "responsibilities": "Future they red everybody act. Beat result major serve real. Large admit family identify during professional hard."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "NeuroNet Systems",
+        "tenure": "17 months",
+        "responsibilities": "Gas you nearly goal law fill discover. Firm sea week real course. Everybody operation set others wonder strategy fast."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "BlueOcean Tech",
+        "tenure": "14 months",
+        "responsibilities": "Few remain call animal. Network recently call. Bill activity expect long future whole education."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech IT",
+        "university": "MIT",
+        "passingYear": "2020"
+      }
+    ],
+    "_canonical_id": "person_006"
+  },
+  {
+    "naukri_id": "nk_person_009",
+    "candidateName": "Mary Massey",
+    "emailId": "ellen86@example.net",
+    "mobile": "001-526-717-9640x5377",
+    "currentLocation": "Delhi, India",
+    "totalExp": "11.6 years",
+    "currentDesignation": "Principal AI Engineer",
+    "aboutSelf": "Production politics others again. During call north attention share debate. Spend do similar small other. Would music sometimes body. Capital group small.",
+    "keySkills": "GPT, AWS, python3, PyTorch, ML, FastAPI",
+    "workEx": [
+      {
+        "designation": "Principal AI Engineer",
+        "organization": "Polaris Tech",
+        "tenure": "42 months",
+        "responsibilities": "Tough position final kid. Half capital travel force indeed customer skill theory. Most tree store either station loss. Second full boy while cell."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Meridian Tech",
+        "tenure": "50 months",
+        "responsibilities": "Whose source hand so add Mr. Happy see energy herself police he push."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "Lumen Data",
+        "tenure": "47 months",
+        "responsibilities": "People wall foreign. Determine as statement travel few impact cause watch. You break doctor Mr home."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. AI",
+        "university": "Georgia Tech",
+        "passingYear": "2015"
+      }
+    ],
+    "_canonical_id": "person_009"
+  },
+  {
+    "naukri_id": "nk_person_012",
+    "candidateName": "Scott Williams",
+    "emailId": "sanchezbrianna@example.net",
+    "mobile": "364-553-5218",
+    "currentLocation": "Bangalore, India",
+    "totalExp": "10.0 years",
+    "currentDesignation": "Staff ML Engineer",
+    "aboutSelf": "Service large under north play person ten. Firm key light place someone option goal avoid. Later arm story baby ten talk past. Leg never social time last special. Focus little character artist billion. Word base position always remain yard.",
+    "keySkills": "machine learning, SQL, RAG, Microsoft Azure, Time Series Analysis, Natural Language Processing, Large Language Models, Python 3, Langchain",
+    "workEx": [
+      {
+        "designation": "Staff ML Engineer",
+        "organization": "Polaris Tech",
+        "tenure": "57 months",
+        "responsibilities": "Tv television office of remember individual boy."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Pinnacle ML",
+        "tenure": "62 months",
+        "responsibilities": "Commercial way least ready gun join."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. Computer Science",
+        "university": "IIT Bombay",
+        "passingYear": "2014"
+      }
+    ],
+    "_canonical_id": "person_012"
+  },
+  {
+    "naukri_id": "nk_person_013",
+    "candidateName": "Lisa Cox",
+    "emailId": "mathewaguilar@example.org",
+    "mobile": "(346)829-1486x528",
+    "currentLocation": "Seattle, WA",
+    "totalExp": "4.0 years",
+    "currentDesignation": "AI Engineer",
+    "aboutSelf": "Capital heavy class story side speak close join. Hair rest wide particular sell six. Move finally speak light strong. Worker left example high month whom stage. Catch economic political them never bill suffer surface. Base civil last message store.",
+    "keySkills": "Containerization, Py, Spring Boot, MySQL",
+    "workEx": [
+      {
+        "designation": "AI Engineer",
+        "organization": "Cortex Analytics",
+        "tenure": "43 months",
+        "responsibilities": "Impact full our smile positive at. Newspaper hit edge surface."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. Computer Science",
+        "university": "UC Berkeley",
+        "passingYear": "2021"
+      }
+    ],
+    "_canonical_id": "person_013"
+  },
+  {
+    "naukri_id": "nk_person_017",
+    "candidateName": "William Grant",
+    "emailId": "thorntonapril@example.net",
+    "mobile": "578-565-2785x85497",
+    "currentLocation": "Mumbai, India",
+    "totalExp": "17.1 years",
+    "currentDesignation": "Principal AI Engineer",
+    "aboutSelf": "Business quality here woman stand. Fact explain research get. Section degree still even no. Case past only drug prove. Difficult do beyond form line race case.",
+    "keySkills": "machine learning, Retrieval-Augmented Generation, aws, FastAPI, Large Language Models, Python 3, Langchain",
+    "workEx": [
+      {
+        "designation": "Principal AI Engineer",
+        "organization": "DataDyne",
+        "tenure": "70 months",
+        "responsibilities": "Current meeting matter and. Require sound mind chance. Cause use five hotel pattern successful order."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "Pinnacle ML",
+        "tenure": "63 months",
+        "responsibilities": "Mother remember feel staff happy purpose woman. Film together the picture others enter pretty will. Officer return on color pick people subject challenge."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "BlueOcean Tech",
+        "tenure": "72 months",
+        "responsibilities": "Occur red course. Finish charge real improve simple turn."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech Computer Science",
+        "university": "Stanford University",
+        "passingYear": "2008"
+      }
+    ],
+    "_canonical_id": "person_017"
+  },
+  {
+    "naukri_id": "nk_person_018",
+    "candidateName": "Vanessa Moore",
+    "emailId": "znelson@example.org",
+    "mobile": "727-342-0549x32966",
+    "currentLocation": "Delhi, India",
+    "totalExp": "4.4 years",
+    "currentDesignation": "Software Engineer (AI/ML)",
+    "aboutSelf": "Property let civil rather. Real police wait happen determine. Check security paper indeed near likely Mr. Seven quite other skin moment.",
+    "keySkills": "LLMs, Amazon Web Services, Retrieval Augmented Generation, Pytorch, ML, MySQL, Python 3, Langchain",
+    "workEx": [
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Forge AI",
+        "tenure": "24 months",
+        "responsibilities": "Practice sense expert experience arrive shoulder present. Movement rich view tree company. Value already structure small."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "Nimbus Analytics",
+        "tenure": "28 months",
+        "responsibilities": "Theory across nothing blue work. Lawyer political modern threat care."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. AI",
+        "university": "Georgia Tech",
+        "passingYear": "2020"
+      }
+    ],
+    "_canonical_id": "person_018"
+  },
+  {
+    "naukri_id": "nk_person_021",
+    "candidateName": "Suzanne Dominguez",
+    "emailId": "robin55@example.com",
+    "mobile": "8936204899",
+    "currentLocation": "New York, NY",
+    "totalExp": "9.7 years",
+    "currentDesignation": "Senior Data Scientist",
+    "aboutSelf": "Collection some college result major true my. Model stuff avoid stand. Share include successful. Religious across media health. Point value tree process administration mother in admit.",
+    "keySkills": "machine learning, Retrieval-Augmented Generation, langchain, aws, K8s, Docker, Python 3, fastapi",
+    "workEx": [
+      {
+        "designation": "Senior Data Scientist",
+        "organization": "Pinnacle ML",
+        "tenure": "116 months",
+        "responsibilities": "Trip need simply herself move grow. Growth third letter sort reveal."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech Computer Science",
+        "university": "University of Washington",
+        "passingYear": "2016"
+      }
+    ],
+    "_canonical_id": "person_021"
+  },
+  {
+    "naukri_id": "nk_person_022",
+    "candidateName": "Kimberly Mitchell",
+    "emailId": "patrick21@example.net",
+    "mobile": "001-250-616-3159x9965",
+    "currentLocation": "Seattle, WA",
+    "totalExp": "9.6 years",
+    "currentDesignation": "Senior AI Engineer",
+    "aboutSelf": "Guess before wall know seven bill. Cost large never impact. Bed never others. Activity including single right nice yeah. Occur college herself catch feeling. Certainly cold every feel site guess want.",
+    "keySkills": "GPT, Python, K8s, Containerization, PyTorch, ML, MySQL, Natural Language Processing",
+    "workEx": [
+      {
+        "designation": "Senior AI Engineer",
+        "organization": "Forge AI",
+        "tenure": "29 months",
+        "responsibilities": "South travel blood benefit chance court. Education great some bad where learn during. Feel stock ball yard practice."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Helix AI",
+        "tenure": "33 months",
+        "responsibilities": "If help live PM."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "Cortex Analytics",
+        "tenure": "23 months",
+        "responsibilities": "Matter its six not. Thus try discover top."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "Polaris Tech",
+        "tenure": "30 months",
+        "responsibilities": "Even under range exactly myself probably conference. Administration debate certain star start up. Class drive strong home to."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech IT",
+        "university": "UC Berkeley",
+        "passingYear": "2015"
+      }
+    ],
+    "_canonical_id": "person_022"
+  },
+  {
+    "naukri_id": "nk_person_026",
+    "candidateName": "Isaac Miller",
+    "emailId": "kimberly04@example.org",
+    "mobile": "398.236.4037x61379",
+    "currentLocation": "Austin, TX",
+    "totalExp": "4.7 years",
+    "currentDesignation": "Software Engineer (AI/ML)",
+    "aboutSelf": "We huge expert Republican. Reduce bar Mr pattern everyone finally. Tv window choice force only shake power. Financial join well draw.",
+    "keySkills": "GPT, AWS, python3, Machine Learning, PostgreSQL, Natural Language Processing",
+    "workEx": [
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Meridian Tech",
+        "tenure": "21 months",
+        "responsibilities": "How figure record. Investment before believe degree back."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "BlueOcean Tech",
+        "tenure": "11 months",
+        "responsibilities": "Mind knowledge account gas building. Really local director become south billion. Thing case similar send card year. Attention none particular clearly."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "Cortex Analytics",
+        "tenure": "24 months",
+        "responsibilities": "Physical character in rather team. To cause but role. White fire cause everybody base network."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.Tech CSE",
+        "university": "IIT Delhi",
+        "passingYear": "2022"
+      }
+    ],
+    "_canonical_id": "person_026"
+  },
+  {
+    "naukri_id": "nk_person_027",
+    "candidateName": "Tim Wilson",
+    "emailId": "tranrobin@example.net",
+    "mobile": "+1-263-453-6541x9518",
+    "currentLocation": "New York, NY",
+    "totalExp": "4.7 years",
+    "currentDesignation": "ML Engineer",
+    "aboutSelf": "Nor fight performance less option. Young simply run national somebody character usually. Must player really act friend.",
+    "keySkills": "ML, FastAPI, MySQL, Python 3, Azure, spaCy, LLM",
+    "workEx": [
+      {
+        "designation": "ML Engineer",
+        "organization": "Quantum Labs",
+        "tenure": "32 months",
+        "responsibilities": "Area program price compare actually case activity market. Mission situation result cold camera sit. Run brother tonight friend investment. Ask Republican office baby lawyer growth matter."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "DataDyne",
+        "tenure": "22 months",
+        "responsibilities": "Happy effort bill off. Direction meeting analysis television. Animal hair turn condition whether."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech Computer Science",
+        "university": "IIT Madras",
+        "passingYear": "2021"
+      }
+    ],
+    "_canonical_id": "person_027"
+  },
+  {
+    "naukri_id": "nk_person_028",
+    "candidateName": "Jamie Rojas",
+    "emailId": "byrdjorge@example.org",
+    "mobile": "4673883171",
+    "currentLocation": "New York, NY",
+    "totalExp": "5.5 years",
+    "currentDesignation": "AI Engineer",
+    "aboutSelf": "Only true avoid young cup position speak begin. Business walk anything under item right. Him interview government. Every land chance pass. Early far include nearly article evidence case current.",
+    "keySkills": "Containerization, Python 3, Java, PostgreSQL",
+    "workEx": [
+      {
+        "designation": "AI Engineer",
+        "organization": "DataDyne",
+        "tenure": "17 months",
+        "responsibilities": "Day work information which. Republican behavior TV today."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "Forge AI",
+        "tenure": "19 months",
+        "responsibilities": "Red head window be believe card. Avoid nothing itself who door end. Unit hotel story for laugh do."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Meridian Tech",
+        "tenure": "20 months",
+        "responsibilities": "Sister once choice clearly. Finish building group show later leg system."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "DataDyne",
+        "tenure": "8 months",
+        "responsibilities": "Space fight relate owner. Structure foreign before eat green."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. Computer Science",
+        "university": "Georgia Tech",
+        "passingYear": "2019"
+      }
+    ],
+    "_canonical_id": "person_028"
+  },
+  {
+    "naukri_id": "nk_person_030",
+    "candidateName": "Jason Macias",
+    "emailId": "tanthony@example.com",
+    "mobile": "674.918.6256x5270",
+    "currentLocation": "Seattle, WA",
+    "totalExp": "1.3 years",
+    "currentDesignation": "Associate Data Scientist",
+    "aboutSelf": "Of dog federal house take alone number. Song quality per build serious common worker. Speak call interest write itself. Street election treat trial. Beautiful news need task. Leader them skill performance mission information increase. Note old who beyond.",
+    "keySkills": "Time Series Analysis, Retrieval Augmented Generation, Pytorch, ML, LangChain, MySQL, Python 3, LLM",
+    "workEx": [
+      {
+        "designation": "Associate Data Scientist",
+        "organization": "BlueOcean Tech",
+        "tenure": "6 months",
+        "responsibilities": "Heart stock small official serve difficult later. Far five weight. Game thousand claim avoid."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Meridian Tech",
+        "tenure": "6 months",
+        "responsibilities": "Order party lot all wall close. Church big day couple recent reveal."
+      },
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Polaris Tech",
+        "tenure": "3 months",
+        "responsibilities": "Produce father benefit hotel near. Child guess into far product outside current. Deal point with."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech Computer Science",
+        "university": "BITS Pilani",
+        "passingYear": "2024"
+      }
+    ],
+    "_canonical_id": "person_030"
+  },
+  {
+    "naukri_id": "nk_person_033",
+    "candidateName": "Frank Whitaker",
+    "emailId": "stephen89@example.net",
+    "mobile": "262-457-5326x03323",
+    "currentLocation": "Austin, TX",
+    "totalExp": "10.9 years",
+    "currentDesignation": "Staff ML Engineer",
+    "aboutSelf": "Ready indicate herself. Listen check receive piece feeling. Production establish paper case. Memory pay executive size.",
+    "keySkills": "Kubernetes, Retrieval Augmented Generation, Pytorch, python3, Docker, ML, Azure, fastapi, Large Language Models, Langchain",
+    "workEx": [
+      {
+        "designation": "Staff ML Engineer",
+        "organization": "Lumen Data",
+        "tenure": "129 months",
+        "responsibilities": "Quality phone eat. Fine bill me fill assume animal."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. Data Science",
+        "university": "University at Buffalo",
+        "passingYear": "2014"
+      }
+    ],
+    "_canonical_id": "person_033"
+  },
+  {
+    "naukri_id": "nk_person_035",
+    "candidateName": "Jesse Davis",
+    "emailId": "shawn22@example.com",
+    "mobile": "+1-484-485-8333x945",
+    "currentLocation": "London, UK",
+    "totalExp": "2.1 years",
+    "currentDesignation": "Associate Data Scientist",
+    "aboutSelf": "Herself apply argue. Seek claim expert economy style. Send allow sport bill test. Ten score night down six sometimes explain.",
+    "keySkills": "Retrieval-Augmented Generation, Pytorch, langchain, python3, NLP, Machine Learning, PostgreSQL",
+    "workEx": [
+      {
+        "designation": "Associate Data Scientist",
+        "organization": "Lumen Data",
+        "tenure": "12 months",
+        "responsibilities": "Game stop who. Natural hear blood to manage."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "Polaris Tech",
+        "tenure": "6 months",
+        "responsibilities": "Effect cultural building system. Lead sit response blue increase. But through leader operation mean white above save."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Forge AI",
+        "tenure": "6 months",
+        "responsibilities": "Stuff lot meet TV concern official. Billion price paper focus. Industry participant realize eat huge garden."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.Tech CSE",
+        "university": "NIT Trichy",
+        "passingYear": "2023"
+      }
+    ],
+    "_canonical_id": "person_035"
+  },
+  {
+    "naukri_id": "nk_person_037",
+    "candidateName": "Michael Houston",
+    "emailId": "fmedina@example.com",
+    "mobile": "653.568.2223",
+    "currentLocation": "London, UK",
+    "totalExp": "7.9 years",
+    "currentDesignation": "Senior ML Engineer",
+    "aboutSelf": "Economy culture oil week. Campaign pretty beyond people too fish. Pattern figure once not hair first. Collection finish size Republican political everybody. Care run there leg grow figure.",
+    "keySkills": "machine learning, Retrieval-Augmented Generation, langchain, aws, K8s, Py, PostgreSQL, Time-series forecasting, PyTorch, docker, fastapi",
+    "workEx": [
+      {
+        "designation": "Senior ML Engineer",
+        "organization": "Quantum Labs",
+        "tenure": "18 months",
+        "responsibilities": "Stock these scientist itself stage authority rather. Learn forward beautiful."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "Nimbus Analytics",
+        "tenure": "31 months",
+        "responsibilities": "Some newspaper offer direction."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "DataDyne",
+        "tenure": "28 months",
+        "responsibilities": "Hold picture item admit pull movement. As second animal summer group me face rate."
+      },
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Acme AI",
+        "tenure": "17 months",
+        "responsibilities": "Example unit high state. Listen mouth carry. Someone support far plant fear thought. Whatever action themselves center among of."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. AI",
+        "university": "Carnegie Mellon",
+        "passingYear": "2019"
+      }
+    ],
+    "_canonical_id": "person_037"
+  },
+  {
+    "naukri_id": "nk_person_038",
+    "candidateName": "Casey Obrien",
+    "emailId": "nhammond@example.org",
+    "mobile": "+1-648-487-2563",
+    "currentLocation": "Pune, India",
+    "totalExp": "5.0 years",
+    "currentDesignation": "ML Engineer",
+    "aboutSelf": "Voice American seven discussion enough doctor protect. Traditional guess like lawyer another wonder food. Strong enjoy name community president. Onto together back edge win development. Good test main lot page maybe.",
+    "keySkills": "machine learning, LLMs, Retrieval-Augmented Generation, aws, Torch, LangChain, MySQL, Python 3",
+    "workEx": [
+      {
+        "designation": "ML Engineer",
+        "organization": "Synapse Labs",
+        "tenure": "58 months",
+        "responsibilities": "Through cultural safe phone. Throughout support place spend."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech Computer Science",
+        "university": "IIT Delhi",
+        "passingYear": "2021"
+      }
+    ],
+    "_canonical_id": "person_038"
+  },
+  {
+    "naukri_id": "nk_person_039",
+    "candidateName": "Christopher Jones",
+    "emailId": "cjohnson@example.org",
+    "mobile": "001-492-628-0920",
+    "currentLocation": "Seattle, WA",
+    "totalExp": "6.8 years",
+    "currentDesignation": "Senior AI Engineer",
+    "aboutSelf": "Test color store over some star consider. Enough right garden law opportunity discover history. Admit mission training range. Painting concern top outside. Sell behavior process top much ability visit. Miss have analysis morning director sort. Go source traditional student office international.",
+    "keySkills": "machine learning, Kubernetes, Retrieval Augmented Generation, Torch, LangChain, docker, Large Language Models, Python 3, MS Azure",
+    "workEx": [
+      {
+        "designation": "Senior AI Engineer",
+        "organization": "Cortex Analytics",
+        "tenure": "81 months",
+        "responsibilities": "Change church own stage produce. Specific result loss long decision claim."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. Computer Science",
+        "university": "IIT Delhi",
+        "passingYear": "2019"
+      }
+    ],
+    "_canonical_id": "person_039"
+  },
+  {
+    "naukri_id": "nk_person_040",
+    "candidateName": "Ralph Kent",
+    "emailId": "angie74@example.com",
+    "mobile": "001-556-821-3721",
+    "currentLocation": "Mumbai, India",
+    "totalExp": "1.4 years",
+    "currentDesignation": "Junior ML Engineer",
+    "aboutSelf": "Participant right us husband. Expert white arm similar compare manager action. Experience almost outside middle discuss college already. Wish beautiful every. Good house only military say attention.",
+    "keySkills": "Python, AWS, Retrieval Augmented Generation, NLP, Machine Learning, LangChain, FastAPI, Large Language Models",
+    "workEx": [
+      {
+        "designation": "Junior ML Engineer",
+        "organization": "Cortex Analytics",
+        "tenure": "10 months",
+        "responsibilities": "Our myself election accept season. Official brother according."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "NeuroNet Systems",
+        "tenure": "6 months",
+        "responsibilities": "Impact blood international one end movie. Hand every quite sense including six lot."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.Tech CSE",
+        "university": "IIT Bombay",
+        "passingYear": "2025"
+      }
+    ],
+    "_canonical_id": "person_040"
+  },
+  {
+    "naukri_id": "nk_person_041",
+    "candidateName": "Duane Gallegos",
+    "emailId": "john16@example.net",
+    "mobile": "001-951-582-7553x9423",
+    "currentLocation": "San Francisco, CA",
+    "totalExp": "2.6 years",
+    "currentDesignation": "ML Engineer I",
+    "aboutSelf": "According tax when summer he firm together thing. Than make worker trouble exactly develop office. Moment institution vote. Girl team simply lead build million firm.",
+    "keySkills": "Torch, Py, Machine Learning",
+    "workEx": [
+      {
+        "designation": "ML Engineer I",
+        "organization": "Innovatech",
+        "tenure": "18 months",
+        "responsibilities": "Girl spring difficult white lawyer identify. End imagine blood. Me future bring message. Then spend offer reason whom."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Polaris Tech",
+        "tenure": "13 months",
+        "responsibilities": "Show serious which learn leave only agree. Election him small detail. Son include good movie red."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.Tech CSE",
+        "university": "IIT Bombay",
+        "passingYear": "2024"
+      }
+    ],
+    "_canonical_id": "person_041"
+  },
+  {
+    "naukri_id": "nk_person_042",
+    "candidateName": "Michael Gray",
+    "emailId": "logan44@example.net",
+    "mobile": "+1-564-675-9876x2202",
+    "currentLocation": "Seattle, WA",
+    "totalExp": "16.8 years",
+    "currentDesignation": "ML Architect",
+    "aboutSelf": "Energy choice pressure those. Director scene kitchen call money. Along ground trip. Level that various nature career way much.",
+    "keySkills": "Python, K8s, NLP, Time series, ML, MySQL, docker, LLM",
+    "workEx": [
+      {
+        "designation": "ML Architect",
+        "organization": "NeuroNet Systems",
+        "tenure": "45 months",
+        "responsibilities": "Gun technology cost enjoy especially when. Hand material decision red head take."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "Forge AI",
+        "tenure": "56 months",
+        "responsibilities": "Conference capital office direction between establish dog. Task cultural son school list act."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "Forge AI",
+        "tenure": "51 months",
+        "responsibilities": "Care throw piece move firm main economy. Answer between clear democratic effect stuff benefit. Employee growth newspaper special general in."
+      },
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Nimbus Analytics",
+        "tenure": "48 months",
+        "responsibilities": "Current office power company sister great pull maintain. Threat high expert place certain cold space. Instead partner if trade bad gas."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. Data Science",
+        "university": "University of Washington",
+        "passingYear": "2010"
+      }
+    ],
+    "_canonical_id": "person_042"
+  },
+  {
+    "naukri_id": "nk_person_043",
+    "candidateName": "Joyce Curry",
+    "emailId": "blopez@example.org",
+    "mobile": "2805214427",
+    "currentLocation": "Hyderabad, India",
+    "totalExp": "3.9 years",
+    "currentDesignation": "Software Engineer (AI/ML)",
+    "aboutSelf": "Such weight argue simply. Myself consider time economic. Stock business should eat side kitchen. Leave side miss word list.",
+    "keySkills": "machine learning, LLMs, python3, Time series, MySQL, Azure",
+    "workEx": [
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Forge AI",
+        "tenure": "19 months",
+        "responsibilities": "Model police finally girl music source. Film include choose action model serve. Gas light across two."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "Vertex Data",
+        "tenure": "18 months",
+        "responsibilities": "Across involve fall discuss account. Country think join economic resource position. Determine bad personal might son party."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Apex Cloud",
+        "tenure": "9 months",
+        "responsibilities": "Possible mother especially could attention. Face PM pay evening."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech Computer Science",
+        "university": "UC Berkeley",
+        "passingYear": "2021"
+      }
+    ],
+    "_canonical_id": "person_043"
+  },
+  {
+    "naukri_id": "nk_person_044",
+    "candidateName": "Emily Morris",
+    "emailId": "browndeanna@example.net",
+    "mobile": "+1-512-273-5857",
+    "currentLocation": "Remote",
+    "totalExp": "5.0 years",
+    "currentDesignation": "AI Engineer",
+    "aboutSelf": "Civil most last standard must law simply. Here control affect task simply draw return. Standard couple raise she child executive important. Book model at strong candidate them. Magazine better number student. Moment red eight hand paper audience us.",
+    "keySkills": "GPT, Python, aws, ML, MySQL",
+    "workEx": [
+      {
+        "designation": "AI Engineer",
+        "organization": "Cortex Analytics",
+        "tenure": "56 months",
+        "responsibilities": "Seat near business. Police cup thought tell design both plan. Address some once how during why. Situation little other he become citizen before peace."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.Tech CSE",
+        "university": "NIT Trichy",
+        "passingYear": "2020"
+      }
+    ],
+    "_canonical_id": "person_044"
+  },
+  {
+    "naukri_id": "nk_person_046",
+    "candidateName": "Anna Ross",
+    "emailId": "walkerkeith@example.com",
+    "mobile": "(625)317-9086",
+    "currentLocation": "San Francisco, CA",
+    "totalExp": "8.5 years",
+    "currentDesignation": "Staff ML Engineer",
+    "aboutSelf": "Become public interest give fly order agency. College glass start sort perhaps. And stand current health serious table. Drug per challenge. Add really born late age.",
+    "keySkills": "GPT, Python, AWS, Kubernetes, Retrieval Augmented Generation, Pytorch, ML, docker, Langchain",
+    "workEx": [
+      {
+        "designation": "Staff ML Engineer",
+        "organization": "Nimbus Analytics",
+        "tenure": "47 months",
+        "responsibilities": "Rich society common stay. Standard believe politics also space high sister."
+      },
+      {
+        "designation": "Data Scientist",
+        "organization": "Orion ML",
+        "tenure": "55 months",
+        "responsibilities": "They its us building side section. Up plant place approach modern floor north force. Check purpose young wife send."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech IT",
+        "university": "Georgia Tech",
+        "passingYear": "2017"
+      }
+    ],
+    "_canonical_id": "person_046"
+  },
+  {
+    "naukri_id": "nk_person_048",
+    "candidateName": "Ryan Harrison",
+    "emailId": "leescott@example.com",
+    "mobile": "001-347-426-4908x27718",
+    "currentLocation": "London, UK",
+    "totalExp": "3.3 years",
+    "currentDesignation": "Software Engineer (AI/ML)",
+    "aboutSelf": "Plant be religious risk window partner civil. Herself should treatment not process change than. Information finally shoulder. Eye Congress together whether about she activity.",
+    "keySkills": "aws, Py, Time series, ML, Large Language Models",
+    "workEx": [
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Helix AI",
+        "tenure": "17 months",
+        "responsibilities": "System man case cover. Impact why understand. Development provide dark daughter computer western."
+      },
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "DataDyne",
+        "tenure": "7 months",
+        "responsibilities": "Majority foot leader east if among save herself. Hour voice occur movie political region. Minute later still."
+      },
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Vertex Data",
+        "tenure": "15 months",
+        "responsibilities": "Million how same newspaper might."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. AI",
+        "university": "UC Berkeley",
+        "passingYear": "2023"
+      }
+    ],
+    "_canonical_id": "person_048"
+  },
+  {
+    "naukri_id": "nk_person_049",
+    "candidateName": "Mr. Robert Franklin MD",
+    "emailId": "mark68@example.org",
+    "mobile": "001-739-601-9817x946",
+    "currentLocation": "Buffalo, NY",
+    "totalExp": "3.2 years",
+    "currentDesignation": "Software Engineer (AI/ML)",
+    "aboutSelf": "Yourself increase free night point action cut example. Film media food accept. How notice whether story create street. Trouble something population loss physical throughout Mr. Leg sport until argue minute north.",
+    "keySkills": "GPT, Python, aws, Time series, Machine Learning, PostgreSQL, PyTorch, spaCy",
+    "workEx": [
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Polaris Tech",
+        "tenure": "13 months",
+        "responsibilities": "Process law kind over according think everything pick. Any challenge president already take."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "DataDyne",
+        "tenure": "20 months",
+        "responsibilities": "Fear turn any indicate condition public particularly reality. Occur no whom see growth along shoulder follow. Star serve successful assume likely business."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech IT",
+        "university": "Georgia Tech",
+        "passingYear": "2023"
+      }
+    ],
+    "_canonical_id": "person_049"
+  },
+  {
+    "naukri_id": "nk_person_050",
+    "candidateName": "Kristen Smith",
+    "emailId": "nathangallegos@example.com",
+    "mobile": "984.221.5031",
+    "currentLocation": "London, UK",
+    "totalExp": "2.4 years",
+    "currentDesignation": "Associate Data Scientist",
+    "aboutSelf": "Break financial analysis summer the four threat. Minute probably fine officer. Police decide customer expert mother. Evening church boy when. Method deal go five center region exist. Commercial find throughout music anything.",
+    "keySkills": "python3, Spring Boot, docker, PostgreSQL",
+    "workEx": [
+      {
+        "designation": "Associate Data Scientist",
+        "organization": "Helix AI",
+        "tenure": "28 months",
+        "responsibilities": "Son thousand government wide exactly all. Phone success number hope organization ten. Relate fire all including market."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech Computer Science",
+        "university": "University at Buffalo",
+        "passingYear": "2024"
+      }
+    ],
+    "_canonical_id": "person_050"
+  },
+  {
+    "naukri_id": "nk_person_052",
+    "candidateName": "Zachary Santiago",
+    "emailId": "mitchellchristopher@example.net",
+    "mobile": "344-429-4440",
+    "currentLocation": "Austin, TX",
+    "totalExp": "2.7 years",
+    "currentDesignation": "Associate Data Scientist",
+    "aboutSelf": "Produce rise cold official success. Politics sense break. Less live live way. Here relationship listen certain that. Eye something high. Which raise American truth PM what.",
+    "keySkills": "machine learning, Python, RAG, LangChain, Large Language Models, spaCy, fastapi, MS Azure",
+    "workEx": [
+      {
+        "designation": "Associate Data Scientist",
+        "organization": "Lumen Data",
+        "tenure": "6 months",
+        "responsibilities": "Author administration return. Price window career case south team throw."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Synapse Labs",
+        "tenure": "6 months",
+        "responsibilities": "Perhaps lawyer interest star his difficult. Painting official suggest door maybe improve. Office almost also low happy oil which. Center rule worker worker."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Catalyst AI",
+        "tenure": "7 months",
+        "responsibilities": "Might model particular early piece professional protect. Something fine apply gas sing light mention."
+      },
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Vertex Data",
+        "tenure": "13 months",
+        "responsibilities": "Safe inside whether sometimes eye along type. Risk nor article list college. Prevent factor say."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. Data Science",
+        "university": "Carnegie Mellon",
+        "passingYear": "2022"
+      }
+    ],
+    "_canonical_id": "person_052"
+  },
+  {
+    "naukri_id": "nk_person_055",
+    "candidateName": "Susan Jimenez",
+    "emailId": "charlesrichards@example.org",
+    "mobile": "(723)497-2652x73543",
+    "currentLocation": "Remote",
+    "totalExp": "1.8 years",
+    "currentDesignation": "ML Engineer I",
+    "aboutSelf": "Church some well town official need discover in. Majority yet option student evidence role save. Force often through option chance. Together individual analysis yard safe mean international.",
+    "keySkills": "SQL, Kubernetes, docker, Python 3, Java",
+    "workEx": [
+      {
+        "designation": "ML Engineer I",
+        "organization": "Quantum Labs",
+        "tenure": "15 months",
+        "responsibilities": "Approach hair decide. Free source serve analysis science."
+      },
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Acme AI",
+        "tenure": "6 months",
+        "responsibilities": "Citizen ahead method audience. Return or for cup quality. Discover body direction down include customer."
+      }
+    ],
+    "education": [
+      {
+        "course": "B.Tech IT",
+        "university": "University at Buffalo",
+        "passingYear": "2025"
+      }
+    ],
+    "_canonical_id": "person_055"
+  },
+  {
+    "naukri_id": "nk_person_056",
+    "candidateName": "Robert Horton",
+    "emailId": "kristinmiller@example.com",
+    "mobile": "001-408-350-1657x9055",
+    "currentLocation": "Hyderabad, India",
+    "totalExp": "3.6 years",
+    "currentDesignation": "AI Engineer",
+    "aboutSelf": "As generation main. Stop like mother stay tonight later happy. Throughout leader bag today eye. Body every recent many.",
+    "keySkills": "LLMs, Amazon Web Services, Py, Machine Learning, PostgreSQL, Torch",
+    "workEx": [
+      {
+        "designation": "AI Engineer",
+        "organization": "Apex Cloud",
+        "tenure": "15 months",
+        "responsibilities": "Manager bar send really image design grow. Positive before look fight reflect."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Stellar Software",
+        "tenure": "28 months",
+        "responsibilities": "Agency lawyer sign them if smile have less. Team audience throw. Most fast send recently partner offer."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.Tech CSE",
+        "university": "MIT",
+        "passingYear": "2021"
+      }
+    ],
+    "_canonical_id": "person_056"
+  },
+  {
+    "naukri_id": "nk_person_057",
+    "candidateName": "Kelly Burton",
+    "emailId": "robert55@example.com",
+    "mobile": "001-488-677-4924",
+    "currentLocation": "Mumbai, India",
+    "totalExp": "3.5 years",
+    "currentDesignation": "AI Engineer",
+    "aboutSelf": "Claim bring year off. Employee continue none alone first gas. Music class feeling turn identify material certainly. Until choose wife national medical positive far. Wide senior yes project son.",
+    "keySkills": "aws, Python 3, Machine Learning",
+    "workEx": [
+      {
+        "designation": "AI Engineer",
+        "organization": "Helix AI",
+        "tenure": "42 months",
+        "responsibilities": "Wide must car get kitchen popular. Country against soon strong mind."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. AI",
+        "university": "IIT Delhi",
+        "passingYear": "2022"
+      }
+    ],
+    "_canonical_id": "person_057"
+  },
+  {
+    "naukri_id": "nk_person_058",
+    "candidateName": "Tammy Morgan",
+    "emailId": "ywalker@example.org",
+    "mobile": "(544)271-4627",
+    "currentLocation": "Mumbai, India",
+    "totalExp": "4.2 years",
+    "currentDesignation": "AI Engineer",
+    "aboutSelf": "Mention offer suddenly clear around floor. Group apply guess player. Face morning view. Create physical share out cold follow first. Even recently guy move goal.",
+    "keySkills": "Retrieval-Augmented Generation, langchain, PostgreSQL, ML, Azure, Python 3, LLM",
+    "workEx": [
+      {
+        "designation": "AI Engineer",
+        "organization": "Forge AI",
+        "tenure": "15 months",
+        "responsibilities": "Too cause nearly final husband subject land. For part crime money."
+      },
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Apex Cloud",
+        "tenure": "7 months",
+        "responsibilities": "Against Mrs knowledge public beautiful. Hour make owner memory argue project huge."
+      },
+      {
+        "designation": "ML Engineer",
+        "organization": "Apex Cloud",
+        "tenure": "15 months",
+        "responsibilities": "History activity general final knowledge night. Road know yeah sound eye. Rock increase structure our century field."
+      },
+      {
+        "designation": "Software Engineer (AI/ML)",
+        "organization": "Cortex Analytics",
+        "tenure": "13 months",
+        "responsibilities": "At whether series because important trial. Company left nothing trip current strategy. Network amount step strong fight."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.Tech CSE",
+        "university": "IIT Bombay",
+        "passingYear": "2022"
+      }
+    ],
+    "_canonical_id": "person_058"
+  },
+  {
+    "naukri_id": "nk_person_059",
+    "candidateName": "Chad Campbell",
+    "emailId": "johnsondonna@example.net",
+    "mobile": "3715401401",
+    "currentLocation": "San Francisco, CA",
+    "totalExp": "8.4 years",
+    "currentDesignation": "Senior ML Engineer",
+    "aboutSelf": "Who commercial senior above rise. Turn surface listen recently continue. Strong wonder interest method. Both world buy book career several.",
+    "keySkills": "Retrieval-Augmented Generation, Microsoft Azure, python3, Machine Learning, LangChain",
+    "workEx": [
+      {
+        "designation": "Senior ML Engineer",
+        "organization": "Apex Cloud",
+        "tenure": "52 months",
+        "responsibilities": "Future treat bill choice determine could. Party story moment mother necessary series box. Trouble bring capital admit give reality catch."
+      },
+      {
+        "designation": "AI Engineer",
+        "organization": "Cortex Analytics",
+        "tenure": "48 months",
+        "responsibilities": "Mission wide common fight season budget campaign reason. Film decide wonder interesting several. Back simple serious amount."
+      }
+    ],
+    "education": [
+      {
+        "course": "M.S. Computer Science",
+        "university": "IIT Delhi",
+        "passingYear": "2018"
+      }
+    ],
+    "_canonical_id": "person_059"
+  }
+]
