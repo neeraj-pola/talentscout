@@ -96,6 +96,7 @@ Run the suite yourself with `python -m scripts.run_test_suite` (writes a fresh
 ```bash
 git clone https://github.com/neeraj-pola/talentscout
 cd talentscout
+chmod +x run.sh
 ./run.sh
 ```
 
