@@ -307,10 +307,3 @@ find . -type d -name __pycache__ -exec rm -rf {} +
 ```
 Then restart `./run.sh`. The UI will show "no JDs yet."
 
----
-
-## Acknowledgements
-
-Built as a take-home for the EverestDX AI Engineer role. The 110 seed
-candidate profiles are synthetic, generated to cover a range of disciplines
-(backend, ML, data, mobile, platform), YOE bands, and locations.
