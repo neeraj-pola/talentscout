@@ -256,19 +256,19 @@ why two-layer guardrails, why UUID-blind ranking, etc.) are in
 ## What the UI shows
 
 - **Intake tab**: form to submit a new JD.
-- **Pipeline tab** (`docs/pipeline.png`): visual flowchart of the
+- **Pipeline tab** ![Pipeline view](docs/pipeline.png) visual flowchart of the
   8 nodes with per-node status, duration, cost, and number of LLM calls. Live
   activity log on the right shows agent events as they happen.
-- **Shortlist tab** (`docs/shortlist.png`): top 10 ranked
+- **Shortlist tab** ![Pipeline view](docs/shortlist.png) top 10 ranked
   candidates with overall scores, per-criterion coverage percentages, the
   bias-blind profile summary, the LLM's overall rationale, and red-flag
   indicators (⚠) when must-have gaps exist.
-- **Refine tab** (`docs/refine.png`): natural-language chat
+- **Refine tab** ![Pipeline view](docs/refine.png) natural-language chat
   against the shortlist. Active filters shown as pills at the top. Live
   filtered preview on the right.
 - **Outreach tab**: three personalized outreach drafts (LinkedIn InMail,
   email subject, email body) for the top candidates.
-- **Cost / observability** (`docs/cost.png`): total cost, LLM
+- **Cost / observability** ![Pipeline view](docs/cost.png) total cost, LLM
   call count, per-agent breakdown.
 
 ---
